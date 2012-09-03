@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'JTStyledElements' target in the 'JTStyledElements' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
+    #import <UIKit/UIKit.h>
+#endif
