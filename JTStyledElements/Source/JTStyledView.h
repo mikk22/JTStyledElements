@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "UIColor+AdvancedColors.h"
-#import "JTStyleDefines.h"
 
 @interface JTStyledView : UIView
 {

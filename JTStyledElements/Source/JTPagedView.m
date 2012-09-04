@@ -1,6 +1,6 @@
 //
-//  JTCircullarScrollView.m
-//  ImageViewer
+//  JTPagedView.m
+//  Jeetrium
 //
 //  Created by Mihail Koltsov on 5/17/12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.

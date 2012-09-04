@@ -1,5 +1,5 @@
 //
-//  UIButton+MetroButton.h
+//  UIButton+JTButton.h
 //  Jeetrium
 //
 //  Created by Mihail Koltsov on 7/23/12.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIButton (MetroButton)
+@interface UIButton (JTButton)
 
 +(id)photoButton;
 

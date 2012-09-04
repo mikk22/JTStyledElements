@@ -7,7 +7,7 @@
 //
 
 #import "JTStyledTimeLineView.h"
-#import "JTStyleDefines.h"
+#import "JTStyledDefines.h"
 
 @implementation JTStyledTimeLineView
 

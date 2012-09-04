@@ -15,8 +15,6 @@ typedef enum
 
 
 #import <UIKit/UIKit.h>
-#import "JTStyleDefines.h"
-#import "JTStyledView.h"
 
 
 @interface JTStyledCell : UITableViewCell

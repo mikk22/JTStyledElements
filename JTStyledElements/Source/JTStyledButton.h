@@ -1,6 +1,6 @@
 //
 //  JTStyledButton.h
-//  JTStyledButton
+//  Jeetrium
 //
 //  Created by user on 18.06.12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.
@@ -29,7 +29,7 @@ typedef enum
     UIColor         *_selectedLowColor;
     CAGradientLayer *_gradientLayer;
 @private    
-    JTButtonType     _buttonType;
+    JTButtonType    _buttonType;
 }
 
 @property (nonatomic, strong) UIColor           *highColor;

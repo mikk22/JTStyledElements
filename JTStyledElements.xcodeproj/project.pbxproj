@@ -7,13 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D966EA4115F5F3DE00F07310 /* addPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = D966EA1015F5F3DE00F07310 /* addPhoto.png */; };
+		D966EA4215F5F3DE00F07310 /* Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D966EA1115F5F3DE00F07310 /* Photo.png */; };
+		D966EA4315F5F3DE00F07310 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */; };
+		D966EA4415F5F3DE00F07310 /* JTStyledButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1715F5F3DE00F07310 /* JTStyledButton+JTButton.m */; };
+		D966EA4515F5F3DE00F07310 /* UIButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1915F5F3DE00F07310 /* UIButton+JTButton.m */; };
+		D966EA4615F5F3DE00F07310 /* UIColor+AdvancedColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1B15F5F3DE00F07310 /* UIColor+AdvancedColors.m */; };
+		D966EA4715F5F3DE00F07310 /* UIImage+AdvancedProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1D15F5F3DE00F07310 /* UIImage+AdvancedProcessing.m */; };
+		D966EA4815F5F3DE00F07310 /* UIImage+JTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1F15F5F3DE00F07310 /* UIImage+JTImages.m */; };
+		D966EA4915F5F3DE00F07310 /* JTAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2115F5F3DE00F07310 /* JTAnimatedView.m */; };
+		D966EA4A15F5F3DE00F07310 /* JTBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2315F5F3DE00F07310 /* JTBarButton.m */; };
+		D966EA4B15F5F3DE00F07310 /* JTBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2515F5F3DE00F07310 /* JTBarView.m */; };
+		D966EA4C15F5F3DE00F07310 /* JTHelpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2715F5F3DE00F07310 /* JTHelpImageView.m */; };
+		D966EA4D15F5F3DE00F07310 /* JTPagedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2915F5F3DE00F07310 /* JTPagedView.m */; };
+		D966EA4E15F5F3DE00F07310 /* JTRoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2B15F5F3DE00F07310 /* JTRoundRectButton.m */; };
+		D966EA4F15F5F3DE00F07310 /* JTStyledArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2D15F5F3DE00F07310 /* JTStyledArrowView.m */; };
+		D966EA5015F5F3DE00F07310 /* JTStyledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2F15F5F3DE00F07310 /* JTStyledButton.m */; };
+		D966EA5115F5F3DE00F07310 /* JTStyledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3115F5F3DE00F07310 /* JTStyledCell.m */; };
+		D966EA5215F5F3DE00F07310 /* JTStyledEditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3415F5F3DE00F07310 /* JTStyledEditableCell.m */; };
+		D966EA5315F5F3DE00F07310 /* JTStyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3815F5F3DE00F07310 /* JTStyledPageControl.m */; };
+		D966EA5415F5F3DE00F07310 /* JTStyledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3A15F5F3DE00F07310 /* JTStyledTextField.m */; };
+		D966EA5515F5F3DE00F07310 /* JTStyledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3C15F5F3DE00F07310 /* JTStyledTextView.m */; };
+		D966EA5615F5F3DE00F07310 /* JTStyledTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3E15F5F3DE00F07310 /* JTStyledTimeLineView.m */; };
+		D966EA5715F5F3DE00F07310 /* JTStyledView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA4015F5F3DE00F07310 /* JTStyledView.m */; };
+		D966EA5A15F5F44B00F07310 /* JTStyledButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA5915F5F44B00F07310 /* JTStyledButtonViewController.m */; };
+		D966EA5D15F5FA8600F07310 /* JTStyledTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA5C15F5FA8500F07310 /* JTStyledTextViewViewController.m */; };
 		D98B52FA15F4D64D00A7FCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F915F4D64D00A7FCB7 /* Foundation.framework */; };
 		D98B533815F4D7AB00A7FCB7 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530D15F4D7AB00A7FCB7 /* AdvancedGraphics.m */; };
-		D98B533915F4D7AB00A7FCB7 /* JTButton+MetroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530F15F4D7AB00A7FCB7 /* JTButton+MetroButton.m */; };
-		D98B533A15F4D7AB00A7FCB7 /* UIButton+MetroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531115F4D7AB00A7FCB7 /* UIButton+MetroButton.m */; };
+		D98B533915F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530F15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m */; };
+		D98B533A15F4D7AB00A7FCB7 /* UIButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531115F4D7AB00A7FCB7 /* UIButton+JTButton.m */; };
 		D98B533B15F4D7AB00A7FCB7 /* UIColor+AdvancedColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531315F4D7AB00A7FCB7 /* UIColor+AdvancedColors.m */; };
 		D98B533C15F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531515F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m */; };
-		D98B533D15F4D7AB00A7FCB7 /* UIImage+MetroImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531715F4D7AB00A7FCB7 /* UIImage+MetroImages.m */; };
+		D98B533D15F4D7AB00A7FCB7 /* UIImage+JTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531715F4D7AB00A7FCB7 /* UIImage+JTImages.m */; };
 		D98B533E15F4D7AB00A7FCB7 /* JTStyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531915F4D7AB00A7FCB7 /* JTStyledPageControl.m */; };
 		D98B533F15F4D7AB00A7FCB7 /* JTAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531B15F4D7AB00A7FCB7 /* JTAnimatedView.m */; };
 		D98B534015F4D7AB00A7FCB7 /* JTBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531D15F4D7AB00A7FCB7 /* JTBarButton.m */; };
@@ -39,29 +64,6 @@
 		D98B536615F4DB1800A7FCB7 /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B536515F4DB1800A7FCB7 /* JTAppDelegate.m */; };
 		D98B537A15F4DCC300A7FCB7 /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B537915F4DCC300A7FCB7 /* JTViewController.m */; };
 		D98B53C715F4DE8200A7FCB7 /* libJTStyledElements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */; };
-		D98B53FA15F4DED100A7FCB7 /* addPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = D98B53CA15F4DED000A7FCB7 /* addPhoto.png */; };
-		D98B53FB15F4DED100A7FCB7 /* Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D98B53CB15F4DED000A7FCB7 /* Photo.png */; };
-		D98B53FC15F4DED100A7FCB7 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53CF15F4DED000A7FCB7 /* AdvancedGraphics.m */; };
-		D98B53FD15F4DED100A7FCB7 /* JTButton+MetroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53D115F4DED000A7FCB7 /* JTButton+MetroButton.m */; };
-		D98B53FE15F4DED100A7FCB7 /* UIButton+MetroButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53D315F4DED000A7FCB7 /* UIButton+MetroButton.m */; };
-		D98B53FF15F4DED100A7FCB7 /* UIColor+AdvancedColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53D515F4DED000A7FCB7 /* UIColor+AdvancedColors.m */; };
-		D98B540015F4DED100A7FCB7 /* UIImage+AdvancedProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53D715F4DED000A7FCB7 /* UIImage+AdvancedProcessing.m */; };
-		D98B540115F4DED100A7FCB7 /* UIImage+MetroImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53D915F4DED000A7FCB7 /* UIImage+MetroImages.m */; };
-		D98B540215F4DED100A7FCB7 /* JTStyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53DB15F4DED000A7FCB7 /* JTStyledPageControl.m */; };
-		D98B540315F4DED100A7FCB7 /* JTAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53DD15F4DED000A7FCB7 /* JTAnimatedView.m */; };
-		D98B540415F4DED100A7FCB7 /* JTBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53DF15F4DED000A7FCB7 /* JTBarButton.m */; };
-		D98B540515F4DED100A7FCB7 /* JTBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53E115F4DED000A7FCB7 /* JTBarView.m */; };
-		D98B540615F4DED100A7FCB7 /* JTHelpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53E315F4DED000A7FCB7 /* JTHelpImageView.m */; };
-		D98B540715F4DED100A7FCB7 /* JTStyledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53E515F4DED000A7FCB7 /* JTStyledButton.m */; };
-		D98B540815F4DED100A7FCB7 /* JTStyledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53E715F4DED000A7FCB7 /* JTStyledCell.m */; };
-		D98B540915F4DED100A7FCB7 /* JTStyledEditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53E915F4DED000A7FCB7 /* JTStyledEditableCell.m */; };
-		D98B540A15F4DED100A7FCB7 /* JTStyledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53EC15F4DED000A7FCB7 /* JTStyledTextField.m */; };
-		D98B540B15F4DED100A7FCB7 /* JTStyledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53EE15F4DED000A7FCB7 /* JTStyledTextView.m */; };
-		D98B540C15F4DED100A7FCB7 /* JTStyledTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53F015F4DED000A7FCB7 /* JTStyledTimeLineView.m */; };
-		D98B540D15F4DED100A7FCB7 /* JTStyledView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53F215F4DED000A7FCB7 /* JTStyledView.m */; };
-		D98B540E15F4DED100A7FCB7 /* JTPagedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53F415F4DED000A7FCB7 /* JTPagedView.m */; };
-		D98B540F15F4DED100A7FCB7 /* JTRoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53F615F4DED000A7FCB7 /* JTRoundRectButton.m */; };
-		D98B541015F4DED100A7FCB7 /* JTStyledArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B53F815F4DED000A7FCB7 /* JTStyledArrowView.m */; };
 		D98B541115F4E03500A7FCB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B535915F4DB1800A7FCB7 /* CoreGraphics.framework */; };
 		D98B541215F4E09100A7FCB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B534F15F4D93600A7FCB7 /* QuartzCore.framework */; };
 		D98B541515F4E17200A7FCB7 /* JTStyledPageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B541415F4E17200A7FCB7 /* JTStyledPageControlViewController.m */; };
@@ -90,22 +92,74 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D966EA0D15F5EEBA00F07310 /* JTStyledElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTStyledElements.h; sourceTree = "<group>"; };
+		D966EA1015F5F3DE00F07310 /* addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPhoto.png; sourceTree = "<group>"; };
+		D966EA1115F5F3DE00F07310 /* Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photo.png; sourceTree = "<group>"; };
+		D966EA1415F5F3DE00F07310 /* AdvancedGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedGraphics.h; sourceTree = "<group>"; };
+		D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedGraphics.m; sourceTree = "<group>"; };
+		D966EA1615F5F3DE00F07310 /* JTStyledButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledButton+JTButton.h"; sourceTree = "<group>"; };
+		D966EA1715F5F3DE00F07310 /* JTStyledButton+JTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JTStyledButton+JTButton.m"; sourceTree = "<group>"; };
+		D966EA1815F5F3DE00F07310 /* UIButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JTButton.h"; sourceTree = "<group>"; };
+		D966EA1915F5F3DE00F07310 /* UIButton+JTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JTButton.m"; sourceTree = "<group>"; };
+		D966EA1A15F5F3DE00F07310 /* UIColor+AdvancedColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AdvancedColors.h"; sourceTree = "<group>"; };
+		D966EA1B15F5F3DE00F07310 /* UIColor+AdvancedColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AdvancedColors.m"; sourceTree = "<group>"; };
+		D966EA1C15F5F3DE00F07310 /* UIImage+AdvancedProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AdvancedProcessing.h"; sourceTree = "<group>"; };
+		D966EA1D15F5F3DE00F07310 /* UIImage+AdvancedProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AdvancedProcessing.m"; sourceTree = "<group>"; };
+		D966EA1E15F5F3DE00F07310 /* UIImage+JTImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTImages.h"; sourceTree = "<group>"; };
+		D966EA1F15F5F3DE00F07310 /* UIImage+JTImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTImages.m"; sourceTree = "<group>"; };
+		D966EA2015F5F3DE00F07310 /* JTAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAnimatedView.h; sourceTree = "<group>"; };
+		D966EA2115F5F3DE00F07310 /* JTAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAnimatedView.m; sourceTree = "<group>"; };
+		D966EA2215F5F3DE00F07310 /* JTBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarButton.h; sourceTree = "<group>"; };
+		D966EA2315F5F3DE00F07310 /* JTBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarButton.m; sourceTree = "<group>"; };
+		D966EA2415F5F3DE00F07310 /* JTBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarView.h; sourceTree = "<group>"; };
+		D966EA2515F5F3DE00F07310 /* JTBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarView.m; sourceTree = "<group>"; };
+		D966EA2615F5F3DE00F07310 /* JTHelpImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHelpImageView.h; sourceTree = "<group>"; };
+		D966EA2715F5F3DE00F07310 /* JTHelpImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHelpImageView.m; sourceTree = "<group>"; };
+		D966EA2815F5F3DE00F07310 /* JTPagedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPagedView.h; sourceTree = "<group>"; };
+		D966EA2915F5F3DE00F07310 /* JTPagedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPagedView.m; sourceTree = "<group>"; };
+		D966EA2A15F5F3DE00F07310 /* JTRoundRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTRoundRectButton.h; sourceTree = "<group>"; };
+		D966EA2B15F5F3DE00F07310 /* JTRoundRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTRoundRectButton.m; sourceTree = "<group>"; };
+		D966EA2C15F5F3DE00F07310 /* JTStyledArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledArrowView.h; sourceTree = "<group>"; };
+		D966EA2D15F5F3DE00F07310 /* JTStyledArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledArrowView.m; sourceTree = "<group>"; };
+		D966EA2E15F5F3DE00F07310 /* JTStyledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledButton.h; sourceTree = "<group>"; };
+		D966EA2F15F5F3DE00F07310 /* JTStyledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledButton.m; sourceTree = "<group>"; };
+		D966EA3015F5F3DE00F07310 /* JTStyledCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledCell.h; sourceTree = "<group>"; };
+		D966EA3115F5F3DE00F07310 /* JTStyledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledCell.m; sourceTree = "<group>"; };
+		D966EA3215F5F3DE00F07310 /* JTStyledDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledDefines.h; sourceTree = "<group>"; };
+		D966EA3315F5F3DE00F07310 /* JTStyledEditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledEditableCell.h; sourceTree = "<group>"; };
+		D966EA3415F5F3DE00F07310 /* JTStyledEditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledEditableCell.m; sourceTree = "<group>"; };
+		D966EA3515F5F3DE00F07310 /* JTStyledElements-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledElements-Prefix.pch"; sourceTree = "<group>"; };
+		D966EA3615F5F3DE00F07310 /* JTStyledElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledElements.h; sourceTree = "<group>"; };
+		D966EA3715F5F3DE00F07310 /* JTStyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControl.h; sourceTree = "<group>"; };
+		D966EA3815F5F3DE00F07310 /* JTStyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControl.m; sourceTree = "<group>"; };
+		D966EA3915F5F3DE00F07310 /* JTStyledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextField.h; sourceTree = "<group>"; };
+		D966EA3A15F5F3DE00F07310 /* JTStyledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextField.m; sourceTree = "<group>"; };
+		D966EA3B15F5F3DE00F07310 /* JTStyledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextView.h; sourceTree = "<group>"; };
+		D966EA3C15F5F3DE00F07310 /* JTStyledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextView.m; sourceTree = "<group>"; };
+		D966EA3D15F5F3DE00F07310 /* JTStyledTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTimeLineView.h; sourceTree = "<group>"; };
+		D966EA3E15F5F3DE00F07310 /* JTStyledTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTimeLineView.m; sourceTree = "<group>"; };
+		D966EA3F15F5F3DE00F07310 /* JTStyledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledView.h; sourceTree = "<group>"; };
+		D966EA4015F5F3DE00F07310 /* JTStyledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledView.m; sourceTree = "<group>"; };
+		D966EA5815F5F44B00F07310 /* JTStyledButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledButtonViewController.h; sourceTree = "<group>"; };
+		D966EA5915F5F44B00F07310 /* JTStyledButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledButtonViewController.m; sourceTree = "<group>"; };
+		D966EA5B15F5FA8500F07310 /* JTStyledTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextViewViewController.h; sourceTree = "<group>"; };
+		D966EA5C15F5FA8500F07310 /* JTStyledTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextViewViewController.m; sourceTree = "<group>"; };
 		D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTStyledElements.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98B52F915F4D64D00A7FCB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D98B530815F4D7AB00A7FCB7 /* addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPhoto.png; sourceTree = "<group>"; };
 		D98B530915F4D7AB00A7FCB7 /* Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photo.png; sourceTree = "<group>"; };
 		D98B530C15F4D7AB00A7FCB7 /* AdvancedGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedGraphics.h; sourceTree = "<group>"; };
 		D98B530D15F4D7AB00A7FCB7 /* AdvancedGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedGraphics.m; sourceTree = "<group>"; };
-		D98B530E15F4D7AB00A7FCB7 /* JTButton+MetroButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTButton+MetroButton.h"; sourceTree = "<group>"; };
-		D98B530F15F4D7AB00A7FCB7 /* JTButton+MetroButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JTButton+MetroButton.m"; sourceTree = "<group>"; };
-		D98B531015F4D7AB00A7FCB7 /* UIButton+MetroButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MetroButton.h"; sourceTree = "<group>"; };
-		D98B531115F4D7AB00A7FCB7 /* UIButton+MetroButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MetroButton.m"; sourceTree = "<group>"; };
+		D98B530E15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledButton+JTButton.h"; sourceTree = "<group>"; };
+		D98B530F15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JTStyledButton+JTButton.m"; sourceTree = "<group>"; };
+		D98B531015F4D7AB00A7FCB7 /* UIButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JTButton.h"; sourceTree = "<group>"; };
+		D98B531115F4D7AB00A7FCB7 /* UIButton+JTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JTButton.m"; sourceTree = "<group>"; };
 		D98B531215F4D7AB00A7FCB7 /* UIColor+AdvancedColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AdvancedColors.h"; sourceTree = "<group>"; };
 		D98B531315F4D7AB00A7FCB7 /* UIColor+AdvancedColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AdvancedColors.m"; sourceTree = "<group>"; };
 		D98B531415F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AdvancedProcessing.h"; sourceTree = "<group>"; };
 		D98B531515F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AdvancedProcessing.m"; sourceTree = "<group>"; };
-		D98B531615F4D7AB00A7FCB7 /* UIImage+MetroImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MetroImages.h"; sourceTree = "<group>"; };
-		D98B531715F4D7AB00A7FCB7 /* UIImage+MetroImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MetroImages.m"; sourceTree = "<group>"; };
+		D98B531615F4D7AB00A7FCB7 /* UIImage+JTImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTImages.h"; sourceTree = "<group>"; };
+		D98B531715F4D7AB00A7FCB7 /* UIImage+JTImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTImages.m"; sourceTree = "<group>"; };
 		D98B531815F4D7AB00A7FCB7 /* JTStyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControl.h; sourceTree = "<group>"; };
 		D98B531915F4D7AB00A7FCB7 /* JTStyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControl.m; sourceTree = "<group>"; };
 		D98B531A15F4D7AB00A7FCB7 /* JTAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAnimatedView.h; sourceTree = "<group>"; };
@@ -124,7 +178,7 @@
 		D98B532715F4D7AB00A7FCB7 /* JTStyledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledCell.m; sourceTree = "<group>"; };
 		D98B532815F4D7AB00A7FCB7 /* JTStyledEditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledEditableCell.h; sourceTree = "<group>"; };
 		D98B532915F4D7AB00A7FCB7 /* JTStyledEditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledEditableCell.m; sourceTree = "<group>"; };
-		D98B532A15F4D7AB00A7FCB7 /* JTMetroStyleDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTMetroStyleDefines.h; sourceTree = "<group>"; };
+		D98B532A15F4D7AB00A7FCB7 /* JTStyledDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledDefines.h; sourceTree = "<group>"; };
 		D98B532B15F4D7AB00A7FCB7 /* JTStyledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextField.h; sourceTree = "<group>"; };
 		D98B532C15F4D7AB00A7FCB7 /* JTStyledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextField.m; sourceTree = "<group>"; };
 		D98B532D15F4D7AB00A7FCB7 /* JTStyledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextView.h; sourceTree = "<group>"; };
@@ -150,52 +204,6 @@
 		D98B536515F4DB1800A7FCB7 /* JTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAppDelegate.m; sourceTree = "<group>"; };
 		D98B537815F4DCC300A7FCB7 /* JTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
 		D98B537915F4DCC300A7FCB7 /* JTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
-		D98B53CA15F4DED000A7FCB7 /* addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPhoto.png; sourceTree = "<group>"; };
-		D98B53CB15F4DED000A7FCB7 /* Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photo.png; sourceTree = "<group>"; };
-		D98B53CE15F4DED000A7FCB7 /* AdvancedGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedGraphics.h; sourceTree = "<group>"; };
-		D98B53CF15F4DED000A7FCB7 /* AdvancedGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedGraphics.m; sourceTree = "<group>"; };
-		D98B53D015F4DED000A7FCB7 /* JTButton+MetroButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTButton+MetroButton.h"; sourceTree = "<group>"; };
-		D98B53D115F4DED000A7FCB7 /* JTButton+MetroButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JTButton+MetroButton.m"; sourceTree = "<group>"; };
-		D98B53D215F4DED000A7FCB7 /* UIButton+MetroButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+MetroButton.h"; sourceTree = "<group>"; };
-		D98B53D315F4DED000A7FCB7 /* UIButton+MetroButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+MetroButton.m"; sourceTree = "<group>"; };
-		D98B53D415F4DED000A7FCB7 /* UIColor+AdvancedColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AdvancedColors.h"; sourceTree = "<group>"; };
-		D98B53D515F4DED000A7FCB7 /* UIColor+AdvancedColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AdvancedColors.m"; sourceTree = "<group>"; };
-		D98B53D615F4DED000A7FCB7 /* UIImage+AdvancedProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AdvancedProcessing.h"; sourceTree = "<group>"; };
-		D98B53D715F4DED000A7FCB7 /* UIImage+AdvancedProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AdvancedProcessing.m"; sourceTree = "<group>"; };
-		D98B53D815F4DED000A7FCB7 /* UIImage+MetroImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MetroImages.h"; sourceTree = "<group>"; };
-		D98B53D915F4DED000A7FCB7 /* UIImage+MetroImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MetroImages.m"; sourceTree = "<group>"; };
-		D98B53DA15F4DED000A7FCB7 /* JTStyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControl.h; sourceTree = "<group>"; };
-		D98B53DB15F4DED000A7FCB7 /* JTStyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControl.m; sourceTree = "<group>"; };
-		D98B53DC15F4DED000A7FCB7 /* JTAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAnimatedView.h; sourceTree = "<group>"; };
-		D98B53DD15F4DED000A7FCB7 /* JTAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAnimatedView.m; sourceTree = "<group>"; };
-		D98B53DE15F4DED000A7FCB7 /* JTBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarButton.h; sourceTree = "<group>"; };
-		D98B53DF15F4DED000A7FCB7 /* JTBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarButton.m; sourceTree = "<group>"; };
-		D98B53E015F4DED000A7FCB7 /* JTBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarView.h; sourceTree = "<group>"; };
-		D98B53E115F4DED000A7FCB7 /* JTBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarView.m; sourceTree = "<group>"; };
-		D98B53E215F4DED000A7FCB7 /* JTHelpImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHelpImageView.h; sourceTree = "<group>"; };
-		D98B53E315F4DED000A7FCB7 /* JTHelpImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHelpImageView.m; sourceTree = "<group>"; };
-		D98B53E415F4DED000A7FCB7 /* JTStyledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledButton.h; sourceTree = "<group>"; };
-		D98B53E515F4DED000A7FCB7 /* JTStyledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledButton.m; sourceTree = "<group>"; };
-		D98B53E615F4DED000A7FCB7 /* JTStyledCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledCell.h; sourceTree = "<group>"; };
-		D98B53E715F4DED000A7FCB7 /* JTStyledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledCell.m; sourceTree = "<group>"; };
-		D98B53E815F4DED000A7FCB7 /* JTStyledEditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledEditableCell.h; sourceTree = "<group>"; };
-		D98B53E915F4DED000A7FCB7 /* JTStyledEditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledEditableCell.m; sourceTree = "<group>"; };
-		D98B53EA15F4DED000A7FCB7 /* JTStyleDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyleDefines.h; sourceTree = "<group>"; };
-		D98B53EB15F4DED000A7FCB7 /* JTStyledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextField.h; sourceTree = "<group>"; };
-		D98B53EC15F4DED000A7FCB7 /* JTStyledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextField.m; sourceTree = "<group>"; };
-		D98B53ED15F4DED000A7FCB7 /* JTStyledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextView.h; sourceTree = "<group>"; };
-		D98B53EE15F4DED000A7FCB7 /* JTStyledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextView.m; sourceTree = "<group>"; };
-		D98B53EF15F4DED000A7FCB7 /* JTStyledTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTimeLineView.h; sourceTree = "<group>"; };
-		D98B53F015F4DED000A7FCB7 /* JTStyledTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTimeLineView.m; sourceTree = "<group>"; };
-		D98B53F115F4DED000A7FCB7 /* JTStyledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledView.h; sourceTree = "<group>"; };
-		D98B53F215F4DED000A7FCB7 /* JTStyledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledView.m; sourceTree = "<group>"; };
-		D98B53F315F4DED000A7FCB7 /* JTPagedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPagedView.h; sourceTree = "<group>"; };
-		D98B53F415F4DED000A7FCB7 /* JTPagedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPagedView.m; sourceTree = "<group>"; };
-		D98B53F515F4DED000A7FCB7 /* JTRoundRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTRoundRectButton.h; sourceTree = "<group>"; };
-		D98B53F615F4DED000A7FCB7 /* JTRoundRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTRoundRectButton.m; sourceTree = "<group>"; };
-		D98B53F715F4DED000A7FCB7 /* JTStyledArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledArrowView.h; sourceTree = "<group>"; };
-		D98B53F815F4DED000A7FCB7 /* JTStyledArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledArrowView.m; sourceTree = "<group>"; };
-		D98B53F915F4DED000A7FCB7 /* JTStyledElements-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledElements-Prefix.pch"; sourceTree = "<group>"; };
 		D98B541315F4E17200A7FCB7 /* JTStyledPageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControlViewController.h; sourceTree = "<group>"; };
 		D98B541415F4E17200A7FCB7 /* JTStyledPageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControlViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -227,6 +235,84 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D966EA0E15F5F3DE00F07310 /* JTStyledElements */ = {
+			isa = PBXGroup;
+			children = (
+				D966EA0F15F5F3DE00F07310 /* Resources */,
+				D966EA1215F5F3DE00F07310 /* Source */,
+			);
+			path = JTStyledElements;
+			sourceTree = SOURCE_ROOT;
+		};
+		D966EA0F15F5F3DE00F07310 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D966EA1015F5F3DE00F07310 /* addPhoto.png */,
+				D966EA1115F5F3DE00F07310 /* Photo.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D966EA1215F5F3DE00F07310 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				D966EA1315F5F3DE00F07310 /* Categories */,
+				D966EA2015F5F3DE00F07310 /* JTAnimatedView.h */,
+				D966EA2115F5F3DE00F07310 /* JTAnimatedView.m */,
+				D966EA2215F5F3DE00F07310 /* JTBarButton.h */,
+				D966EA2315F5F3DE00F07310 /* JTBarButton.m */,
+				D966EA2415F5F3DE00F07310 /* JTBarView.h */,
+				D966EA2515F5F3DE00F07310 /* JTBarView.m */,
+				D966EA2615F5F3DE00F07310 /* JTHelpImageView.h */,
+				D966EA2715F5F3DE00F07310 /* JTHelpImageView.m */,
+				D966EA2815F5F3DE00F07310 /* JTPagedView.h */,
+				D966EA2915F5F3DE00F07310 /* JTPagedView.m */,
+				D966EA2A15F5F3DE00F07310 /* JTRoundRectButton.h */,
+				D966EA2B15F5F3DE00F07310 /* JTRoundRectButton.m */,
+				D966EA2C15F5F3DE00F07310 /* JTStyledArrowView.h */,
+				D966EA2D15F5F3DE00F07310 /* JTStyledArrowView.m */,
+				D966EA2E15F5F3DE00F07310 /* JTStyledButton.h */,
+				D966EA2F15F5F3DE00F07310 /* JTStyledButton.m */,
+				D966EA3015F5F3DE00F07310 /* JTStyledCell.h */,
+				D966EA3115F5F3DE00F07310 /* JTStyledCell.m */,
+				D966EA3215F5F3DE00F07310 /* JTStyledDefines.h */,
+				D966EA3315F5F3DE00F07310 /* JTStyledEditableCell.h */,
+				D966EA3415F5F3DE00F07310 /* JTStyledEditableCell.m */,
+				D966EA3515F5F3DE00F07310 /* JTStyledElements-Prefix.pch */,
+				D966EA3615F5F3DE00F07310 /* JTStyledElements.h */,
+				D966EA3715F5F3DE00F07310 /* JTStyledPageControl.h */,
+				D966EA3815F5F3DE00F07310 /* JTStyledPageControl.m */,
+				D966EA3915F5F3DE00F07310 /* JTStyledTextField.h */,
+				D966EA3A15F5F3DE00F07310 /* JTStyledTextField.m */,
+				D966EA3B15F5F3DE00F07310 /* JTStyledTextView.h */,
+				D966EA3C15F5F3DE00F07310 /* JTStyledTextView.m */,
+				D966EA3D15F5F3DE00F07310 /* JTStyledTimeLineView.h */,
+				D966EA3E15F5F3DE00F07310 /* JTStyledTimeLineView.m */,
+				D966EA3F15F5F3DE00F07310 /* JTStyledView.h */,
+				D966EA4015F5F3DE00F07310 /* JTStyledView.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		D966EA1315F5F3DE00F07310 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D966EA1415F5F3DE00F07310 /* AdvancedGraphics.h */,
+				D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */,
+				D966EA1615F5F3DE00F07310 /* JTStyledButton+JTButton.h */,
+				D966EA1715F5F3DE00F07310 /* JTStyledButton+JTButton.m */,
+				D966EA1815F5F3DE00F07310 /* UIButton+JTButton.h */,
+				D966EA1915F5F3DE00F07310 /* UIButton+JTButton.m */,
+				D966EA1A15F5F3DE00F07310 /* UIColor+AdvancedColors.h */,
+				D966EA1B15F5F3DE00F07310 /* UIColor+AdvancedColors.m */,
+				D966EA1C15F5F3DE00F07310 /* UIImage+AdvancedProcessing.h */,
+				D966EA1D15F5F3DE00F07310 /* UIImage+AdvancedProcessing.m */,
+				D966EA1E15F5F3DE00F07310 /* UIImage+JTImages.h */,
+				D966EA1F15F5F3DE00F07310 /* UIImage+JTImages.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		D98B52EB15F4D64D00A7FCB7 = {
 			isa = PBXGroup;
 			children = (
@@ -279,37 +365,38 @@
 			isa = PBXGroup;
 			children = (
 				D98B530B15F4D7AB00A7FCB7 /* Categories */,
-				D98B531815F4D7AB00A7FCB7 /* JTStyledPageControl.h */,
-				D98B531915F4D7AB00A7FCB7 /* JTStyledPageControl.m */,
 				D98B531A15F4D7AB00A7FCB7 /* JTAnimatedView.h */,
 				D98B531B15F4D7AB00A7FCB7 /* JTAnimatedView.m */,
 				D98B531C15F4D7AB00A7FCB7 /* JTBarButton.h */,
 				D98B531D15F4D7AB00A7FCB7 /* JTBarButton.m */,
 				D98B531E15F4D7AB00A7FCB7 /* JTBarView.h */,
 				D98B531F15F4D7AB00A7FCB7 /* JTBarView.m */,
-				D98B532015F4D7AB00A7FCB7 /* JTHelpImageView.h */,
-				D98B532115F4D7AB00A7FCB7 /* JTHelpImageView.m */,
-				D98B532215F4D7AB00A7FCB7 /* JTStyledArrowView.h */,
-				D98B532315F4D7AB00A7FCB7 /* JTStyledArrowView.m */,
-				D98B532415F4D7AB00A7FCB7 /* JTStyledButton.h */,
-				D98B532515F4D7AB00A7FCB7 /* JTStyledButton.m */,
-				D98B532615F4D7AB00A7FCB7 /* JTStyledCell.h */,
-				D98B532715F4D7AB00A7FCB7 /* JTStyledCell.m */,
-				D98B532815F4D7AB00A7FCB7 /* JTStyledEditableCell.h */,
-				D98B532915F4D7AB00A7FCB7 /* JTStyledEditableCell.m */,
-				D98B532A15F4D7AB00A7FCB7 /* JTMetroStyleDefines.h */,
-				D98B532B15F4D7AB00A7FCB7 /* JTStyledTextField.h */,
-				D98B532C15F4D7AB00A7FCB7 /* JTStyledTextField.m */,
-				D98B532D15F4D7AB00A7FCB7 /* JTStyledTextView.h */,
-				D98B532E15F4D7AB00A7FCB7 /* JTStyledTextView.m */,
-				D98B532F15F4D7AB00A7FCB7 /* JTStyledTimeLineView.h */,
-				D98B533015F4D7AB00A7FCB7 /* JTStyledTimeLineView.m */,
-				D98B533115F4D7AB00A7FCB7 /* JTStyledView.h */,
-				D98B533215F4D7AB00A7FCB7 /* JTStyledView.m */,
 				D98B533315F4D7AB00A7FCB7 /* JTPagedView.h */,
 				D98B533415F4D7AB00A7FCB7 /* JTPagedView.m */,
 				D98B533515F4D7AB00A7FCB7 /* JTRoundRectButton.h */,
 				D98B533615F4D7AB00A7FCB7 /* JTRoundRectButton.m */,
+				D98B531815F4D7AB00A7FCB7 /* JTStyledPageControl.h */,
+				D98B531915F4D7AB00A7FCB7 /* JTStyledPageControl.m */,
+				D98B532415F4D7AB00A7FCB7 /* JTStyledButton.h */,
+				D98B532515F4D7AB00A7FCB7 /* JTStyledButton.m */,
+				D98B532D15F4D7AB00A7FCB7 /* JTStyledTextView.h */,
+				D98B532E15F4D7AB00A7FCB7 /* JTStyledTextView.m */,
+				D98B532015F4D7AB00A7FCB7 /* JTHelpImageView.h */,
+				D98B532115F4D7AB00A7FCB7 /* JTHelpImageView.m */,
+				D98B532215F4D7AB00A7FCB7 /* JTStyledArrowView.h */,
+				D98B532315F4D7AB00A7FCB7 /* JTStyledArrowView.m */,
+				D98B532615F4D7AB00A7FCB7 /* JTStyledCell.h */,
+				D98B532715F4D7AB00A7FCB7 /* JTStyledCell.m */,
+				D98B532815F4D7AB00A7FCB7 /* JTStyledEditableCell.h */,
+				D98B532915F4D7AB00A7FCB7 /* JTStyledEditableCell.m */,
+				D98B532A15F4D7AB00A7FCB7 /* JTStyledDefines.h */,
+				D98B532B15F4D7AB00A7FCB7 /* JTStyledTextField.h */,
+				D98B532C15F4D7AB00A7FCB7 /* JTStyledTextField.m */,
+				D98B532F15F4D7AB00A7FCB7 /* JTStyledTimeLineView.h */,
+				D98B533015F4D7AB00A7FCB7 /* JTStyledTimeLineView.m */,
+				D98B533115F4D7AB00A7FCB7 /* JTStyledView.h */,
+				D98B533215F4D7AB00A7FCB7 /* JTStyledView.m */,
+				D966EA0D15F5EEBA00F07310 /* JTStyledElements.h */,
 				D98B533715F4D7AB00A7FCB7 /* JTStyledElements-Prefix.pch */,
 			);
 			path = Source;
@@ -320,16 +407,16 @@
 			children = (
 				D98B530C15F4D7AB00A7FCB7 /* AdvancedGraphics.h */,
 				D98B530D15F4D7AB00A7FCB7 /* AdvancedGraphics.m */,
-				D98B530E15F4D7AB00A7FCB7 /* JTButton+MetroButton.h */,
-				D98B530F15F4D7AB00A7FCB7 /* JTButton+MetroButton.m */,
-				D98B531015F4D7AB00A7FCB7 /* UIButton+MetroButton.h */,
-				D98B531115F4D7AB00A7FCB7 /* UIButton+MetroButton.m */,
+				D98B530E15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.h */,
+				D98B530F15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m */,
+				D98B531015F4D7AB00A7FCB7 /* UIButton+JTButton.h */,
+				D98B531115F4D7AB00A7FCB7 /* UIButton+JTButton.m */,
 				D98B531215F4D7AB00A7FCB7 /* UIColor+AdvancedColors.h */,
 				D98B531315F4D7AB00A7FCB7 /* UIColor+AdvancedColors.m */,
 				D98B531415F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.h */,
 				D98B531515F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m */,
-				D98B531615F4D7AB00A7FCB7 /* UIImage+MetroImages.h */,
-				D98B531715F4D7AB00A7FCB7 /* UIImage+MetroImages.m */,
+				D98B531615F4D7AB00A7FCB7 /* UIImage+JTImages.h */,
+				D98B531715F4D7AB00A7FCB7 /* UIImage+JTImages.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -337,13 +424,17 @@
 		D98B535B15F4DB1800A7FCB7 /* JTStyledElementsDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D98B53C815F4DED000A7FCB7 /* JTStyledElements */,
+				D966EA0E15F5F3DE00F07310 /* JTStyledElements */,
 				D98B536415F4DB1800A7FCB7 /* JTAppDelegate.h */,
 				D98B536515F4DB1800A7FCB7 /* JTAppDelegate.m */,
 				D98B537815F4DCC300A7FCB7 /* JTViewController.h */,
 				D98B537915F4DCC300A7FCB7 /* JTViewController.m */,
 				D98B541315F4E17200A7FCB7 /* JTStyledPageControlViewController.h */,
 				D98B541415F4E17200A7FCB7 /* JTStyledPageControlViewController.m */,
+				D966EA5815F5F44B00F07310 /* JTStyledButtonViewController.h */,
+				D966EA5915F5F44B00F07310 /* JTStyledButtonViewController.m */,
+				D966EA5B15F5FA8500F07310 /* JTStyledTextViewViewController.h */,
+				D966EA5C15F5FA8500F07310 /* JTStyledTextViewViewController.m */,
 				D98B535C15F4DB1800A7FCB7 /* Supporting Files */,
 			);
 			path = JTStyledElementsDemo;
@@ -358,83 +449,6 @@
 				D98B536315F4DB1800A7FCB7 /* JTStyledElementsDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		D98B53C815F4DED000A7FCB7 /* JTStyledElements */ = {
-			isa = PBXGroup;
-			children = (
-				D98B53C915F4DED000A7FCB7 /* Resources */,
-				D98B53CC15F4DED000A7FCB7 /* Source */,
-			);
-			path = JTStyledElements;
-			sourceTree = SOURCE_ROOT;
-		};
-		D98B53C915F4DED000A7FCB7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D98B53CA15F4DED000A7FCB7 /* addPhoto.png */,
-				D98B53CB15F4DED000A7FCB7 /* Photo.png */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		D98B53CC15F4DED000A7FCB7 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				D98B53CD15F4DED000A7FCB7 /* Categories */,
-				D98B53DA15F4DED000A7FCB7 /* JTStyledPageControl.h */,
-				D98B53DB15F4DED000A7FCB7 /* JTStyledPageControl.m */,
-				D98B53DC15F4DED000A7FCB7 /* JTAnimatedView.h */,
-				D98B53DD15F4DED000A7FCB7 /* JTAnimatedView.m */,
-				D98B53DE15F4DED000A7FCB7 /* JTBarButton.h */,
-				D98B53DF15F4DED000A7FCB7 /* JTBarButton.m */,
-				D98B53E015F4DED000A7FCB7 /* JTBarView.h */,
-				D98B53E115F4DED000A7FCB7 /* JTBarView.m */,
-				D98B53E215F4DED000A7FCB7 /* JTHelpImageView.h */,
-				D98B53E315F4DED000A7FCB7 /* JTHelpImageView.m */,
-				D98B53E415F4DED000A7FCB7 /* JTStyledButton.h */,
-				D98B53E515F4DED000A7FCB7 /* JTStyledButton.m */,
-				D98B53E615F4DED000A7FCB7 /* JTStyledCell.h */,
-				D98B53E715F4DED000A7FCB7 /* JTStyledCell.m */,
-				D98B53E815F4DED000A7FCB7 /* JTStyledEditableCell.h */,
-				D98B53E915F4DED000A7FCB7 /* JTStyledEditableCell.m */,
-				D98B53EA15F4DED000A7FCB7 /* JTStyleDefines.h */,
-				D98B53EB15F4DED000A7FCB7 /* JTStyledTextField.h */,
-				D98B53EC15F4DED000A7FCB7 /* JTStyledTextField.m */,
-				D98B53ED15F4DED000A7FCB7 /* JTStyledTextView.h */,
-				D98B53EE15F4DED000A7FCB7 /* JTStyledTextView.m */,
-				D98B53EF15F4DED000A7FCB7 /* JTStyledTimeLineView.h */,
-				D98B53F015F4DED000A7FCB7 /* JTStyledTimeLineView.m */,
-				D98B53F115F4DED000A7FCB7 /* JTStyledView.h */,
-				D98B53F215F4DED000A7FCB7 /* JTStyledView.m */,
-				D98B53F315F4DED000A7FCB7 /* JTPagedView.h */,
-				D98B53F415F4DED000A7FCB7 /* JTPagedView.m */,
-				D98B53F515F4DED000A7FCB7 /* JTRoundRectButton.h */,
-				D98B53F615F4DED000A7FCB7 /* JTRoundRectButton.m */,
-				D98B53F715F4DED000A7FCB7 /* JTStyledArrowView.h */,
-				D98B53F815F4DED000A7FCB7 /* JTStyledArrowView.m */,
-				D98B53F915F4DED000A7FCB7 /* JTStyledElements-Prefix.pch */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		D98B53CD15F4DED000A7FCB7 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D98B53CE15F4DED000A7FCB7 /* AdvancedGraphics.h */,
-				D98B53CF15F4DED000A7FCB7 /* AdvancedGraphics.m */,
-				D98B53D015F4DED000A7FCB7 /* JTButton+MetroButton.h */,
-				D98B53D115F4DED000A7FCB7 /* JTButton+MetroButton.m */,
-				D98B53D215F4DED000A7FCB7 /* UIButton+MetroButton.h */,
-				D98B53D315F4DED000A7FCB7 /* UIButton+MetroButton.m */,
-				D98B53D415F4DED000A7FCB7 /* UIColor+AdvancedColors.h */,
-				D98B53D515F4DED000A7FCB7 /* UIColor+AdvancedColors.m */,
-				D98B53D615F4DED000A7FCB7 /* UIImage+AdvancedProcessing.h */,
-				D98B53D715F4DED000A7FCB7 /* UIImage+AdvancedProcessing.m */,
-				D98B53D815F4DED000A7FCB7 /* UIImage+MetroImages.h */,
-				D98B53D915F4DED000A7FCB7 /* UIImage+MetroImages.m */,
-			);
-			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,8 +522,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98B536015F4DB1800A7FCB7 /* InfoPlist.strings in Resources */,
-				D98B53FA15F4DED100A7FCB7 /* addPhoto.png in Resources */,
-				D98B53FB15F4DED100A7FCB7 /* Photo.png in Resources */,
+				D966EA4115F5F3DE00F07310 /* addPhoto.png in Resources */,
+				D966EA4215F5F3DE00F07310 /* Photo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -521,11 +535,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D98B533815F4D7AB00A7FCB7 /* AdvancedGraphics.m in Sources */,
-				D98B533915F4D7AB00A7FCB7 /* JTButton+MetroButton.m in Sources */,
-				D98B533A15F4D7AB00A7FCB7 /* UIButton+MetroButton.m in Sources */,
+				D98B533915F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m in Sources */,
+				D98B533A15F4D7AB00A7FCB7 /* UIButton+JTButton.m in Sources */,
 				D98B533B15F4D7AB00A7FCB7 /* UIColor+AdvancedColors.m in Sources */,
 				D98B533C15F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m in Sources */,
-				D98B533D15F4D7AB00A7FCB7 /* UIImage+MetroImages.m in Sources */,
+				D98B533D15F4D7AB00A7FCB7 /* UIImage+JTImages.m in Sources */,
 				D98B533E15F4D7AB00A7FCB7 /* JTStyledPageControl.m in Sources */,
 				D98B533F15F4D7AB00A7FCB7 /* JTAnimatedView.m in Sources */,
 				D98B534015F4D7AB00A7FCB7 /* JTBarButton.m in Sources */,
@@ -551,28 +565,30 @@
 				D98B536215F4DB1800A7FCB7 /* main.m in Sources */,
 				D98B536615F4DB1800A7FCB7 /* JTAppDelegate.m in Sources */,
 				D98B537A15F4DCC300A7FCB7 /* JTViewController.m in Sources */,
-				D98B53FC15F4DED100A7FCB7 /* AdvancedGraphics.m in Sources */,
-				D98B53FD15F4DED100A7FCB7 /* JTButton+MetroButton.m in Sources */,
-				D98B53FE15F4DED100A7FCB7 /* UIButton+MetroButton.m in Sources */,
-				D98B53FF15F4DED100A7FCB7 /* UIColor+AdvancedColors.m in Sources */,
-				D98B540015F4DED100A7FCB7 /* UIImage+AdvancedProcessing.m in Sources */,
-				D98B540115F4DED100A7FCB7 /* UIImage+MetroImages.m in Sources */,
-				D98B540215F4DED100A7FCB7 /* JTStyledPageControl.m in Sources */,
-				D98B540315F4DED100A7FCB7 /* JTAnimatedView.m in Sources */,
-				D98B540415F4DED100A7FCB7 /* JTBarButton.m in Sources */,
-				D98B540515F4DED100A7FCB7 /* JTBarView.m in Sources */,
-				D98B540615F4DED100A7FCB7 /* JTHelpImageView.m in Sources */,
-				D98B540715F4DED100A7FCB7 /* JTStyledButton.m in Sources */,
-				D98B540815F4DED100A7FCB7 /* JTStyledCell.m in Sources */,
-				D98B540915F4DED100A7FCB7 /* JTStyledEditableCell.m in Sources */,
-				D98B540A15F4DED100A7FCB7 /* JTStyledTextField.m in Sources */,
-				D98B540B15F4DED100A7FCB7 /* JTStyledTextView.m in Sources */,
-				D98B540C15F4DED100A7FCB7 /* JTStyledTimeLineView.m in Sources */,
-				D98B540D15F4DED100A7FCB7 /* JTStyledView.m in Sources */,
-				D98B540E15F4DED100A7FCB7 /* JTPagedView.m in Sources */,
-				D98B540F15F4DED100A7FCB7 /* JTRoundRectButton.m in Sources */,
-				D98B541015F4DED100A7FCB7 /* JTStyledArrowView.m in Sources */,
 				D98B541515F4E17200A7FCB7 /* JTStyledPageControlViewController.m in Sources */,
+				D966EA4315F5F3DE00F07310 /* AdvancedGraphics.m in Sources */,
+				D966EA4415F5F3DE00F07310 /* JTStyledButton+JTButton.m in Sources */,
+				D966EA4515F5F3DE00F07310 /* UIButton+JTButton.m in Sources */,
+				D966EA4615F5F3DE00F07310 /* UIColor+AdvancedColors.m in Sources */,
+				D966EA4715F5F3DE00F07310 /* UIImage+AdvancedProcessing.m in Sources */,
+				D966EA4815F5F3DE00F07310 /* UIImage+JTImages.m in Sources */,
+				D966EA4915F5F3DE00F07310 /* JTAnimatedView.m in Sources */,
+				D966EA4A15F5F3DE00F07310 /* JTBarButton.m in Sources */,
+				D966EA4B15F5F3DE00F07310 /* JTBarView.m in Sources */,
+				D966EA4C15F5F3DE00F07310 /* JTHelpImageView.m in Sources */,
+				D966EA4D15F5F3DE00F07310 /* JTPagedView.m in Sources */,
+				D966EA4E15F5F3DE00F07310 /* JTRoundRectButton.m in Sources */,
+				D966EA4F15F5F3DE00F07310 /* JTStyledArrowView.m in Sources */,
+				D966EA5015F5F3DE00F07310 /* JTStyledButton.m in Sources */,
+				D966EA5115F5F3DE00F07310 /* JTStyledCell.m in Sources */,
+				D966EA5215F5F3DE00F07310 /* JTStyledEditableCell.m in Sources */,
+				D966EA5315F5F3DE00F07310 /* JTStyledPageControl.m in Sources */,
+				D966EA5415F5F3DE00F07310 /* JTStyledTextField.m in Sources */,
+				D966EA5515F5F3DE00F07310 /* JTStyledTextView.m in Sources */,
+				D966EA5615F5F3DE00F07310 /* JTStyledTimeLineView.m in Sources */,
+				D966EA5715F5F3DE00F07310 /* JTStyledView.m in Sources */,
+				D966EA5A15F5F44B00F07310 /* JTStyledButtonViewController.m in Sources */,
+				D966EA5D15F5FA8600F07310 /* JTStyledTextViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

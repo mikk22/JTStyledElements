@@ -1,6 +1,6 @@
 //
 //  JTRoundRectButton.m
-//  Viewer
+//  JTPagedView.h
 //
 //  Created by Mihail Koltsov on 6/13/12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.

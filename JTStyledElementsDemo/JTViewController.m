@@ -14,16 +14,17 @@
 enum
 {
     kJTStyledPageControlCell,
+    kJTStyledButtonCell,
+    kJTStyledTextViewCell,
     kJTStyledElementsCount
 };
 
 
-#define JTSTYLED_ELEMENTS_ARRAY     [NSArray arrayWithObjects:@"JTStyledPageControl",nil]
+#define JTSTYLED_ELEMENTS_ARRAY     [NSArray arrayWithObjects:@"JTStyledPageControl",\
+                                                              @"JTStyledButton",\
+                                                              @"JTStyledTextView",\
+                                    nil]
 
-
-@interface JTViewController ()
-
-@end
 
 @implementation JTViewController
 
@@ -94,19 +95,11 @@ enum
     
     UIViewController *viewController;
     
-    switch (indexPath.row)
-    {
-        case kJTStyledPageControlCell:
-        {
-            viewController=[[JTStyledPageControlViewController alloc] init];
-            viewController.title=[JTSTYLED_ELEMENTS_ARRAY objectAtIndex:indexPath.row];
-            break;
-        }
-        default:
-            NSAssert(NO, @"There are no Any ViewController for this cell.");
-            break;
-    }
+    NSString *classSuffix=@"ViewController";
+    NSString *classPrefix=[JTSTYLED_ELEMENTS_ARRAY objectAtIndex:indexPath.row];
     
+    viewController=[[NSClassFromString([NSString stringWithFormat:@"%@%@",classPrefix,classSuffix]) alloc] init];
+    viewController.title=classPrefix;
     
     [self.navigationController pushViewController:viewController animated:YES];
 }

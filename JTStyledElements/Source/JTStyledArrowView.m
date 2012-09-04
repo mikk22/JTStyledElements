@@ -7,6 +7,7 @@
 //
 #import "JTStyledArrowView.h"
 #import <QuartzCore/QuartzCore.h>
+#import "JTStyledDefines.h"
 
 @implementation JTStyledArrowView
 

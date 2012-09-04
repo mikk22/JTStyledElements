@@ -7,6 +7,7 @@
 //
 
 #import "JTStyledTextField.h"
+#import "JTStyledDefines.h"
 #import "AdvancedGraphics.h"
 
 

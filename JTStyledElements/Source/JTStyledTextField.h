@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JTStyleDefines.h"
 #import "UIColor+AdvancedColors.h"
 
 @interface JTStyledTextField : UITextField

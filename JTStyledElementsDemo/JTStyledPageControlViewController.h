@@ -7,15 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JTStyledPageControl.h"
+#import "JTStyledElements.h"
 
 @interface JTStyledPageControlViewController : UIViewController
 {
-    JTStyledPageControl           *_pageControl;
-    UISegmentedControl      *_segmentedControl;
+    JTStyledPageControl             *_pageControl;
+    UISegmentedControl              *_segmentedControl;
 }
 
-@property (nonatomic, strong)   JTStyledPageControl           *pageControl;
-@property (nonatomic, strong)   UISegmentedControl      *segmentedControl;
+@property (nonatomic, strong)   JTStyledPageControl             *pageControl;
+@property (nonatomic, strong)   UISegmentedControl              *segmentedControl;
 
 @end

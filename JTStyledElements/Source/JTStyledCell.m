@@ -7,6 +7,8 @@
 //
 
 #import "JTStyledCell.h"
+#import "JTStyledDefines.h"
+#import "JTStyledView.h"
 
 @implementation JTStyledCell
 

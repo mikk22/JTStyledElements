@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JTMetroStyleDefines.h"
+#import "UIColor+AdvancedColors.h"
 
 #define METRO_ARROWVIEW_ARROW_LEFT_OFFSET   23
 #define METRO_ARROWVIEW_ARROW_WIDTH         7.f

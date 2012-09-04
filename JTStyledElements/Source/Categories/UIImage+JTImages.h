@@ -1,5 +1,5 @@
 //
-//  UIImage+MetroImages.h
+//  UIImage+JTImages.h
 //  Jeetrium
 //
 //  Created by Mihail Koltsov on 7/23/12.
@@ -8,13 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIImage (MetroImages)
+@interface UIImage (JTImages)
 
 +(UIImage*)addPhotoImage;
 +(UIImage*)noPhotoImage;
 +(UIImage*)addPhotoImageWithSize:(CGSize)size;
 +(UIImage*)noPhotoImageWithSize:(CGSize)size;
-+(UIImage*)metroStyledImage:(NSString*)imageName WithSize:(CGSize)size;
++(UIImage*)jtStyledImage:(NSString*)imageName WithSize:(CGSize)size;
 
 
 

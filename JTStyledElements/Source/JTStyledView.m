@@ -7,6 +7,7 @@
 //
 
 #import "JTStyledView.h"
+#import "JTStyledDefines.h"
 #import "AdvancedGraphics.h"
 
 @implementation JTStyledView

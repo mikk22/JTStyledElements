@@ -1,5 +1,5 @@
 //
-//  JTButton+MetroButton.h
+//  JTStyledButton+JTButton.h
 //  Jeetrium
 //
 //  Created by Mihail Koltsov on 6/18/12.
@@ -7,11 +7,11 @@
 //
 
 #import "JTStyledButton.h"
-#import "JTStyleDefines.h"
+#import "JTStyledDefines.h"
 
-@interface JTStyledButton (MetroButton)
+@interface JTStyledButton (JTButton)
 
-+(id)metroButton;
-+(id)inversedMetroButton;
++(id)jtButton;
++(id)inversedJTButton;
 
 @end

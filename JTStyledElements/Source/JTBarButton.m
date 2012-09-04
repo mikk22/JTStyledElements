@@ -1,6 +1,6 @@
 //
 //  JTBarButton.m
-//  ButtonsBar
+//  Jeetrium
 //
 //  Created by user on 16.06.12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.

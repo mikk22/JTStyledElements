@@ -1,15 +1,15 @@
 //
-//  UIImage+MetroImages.m
+//  UIImage+JTImages.m
 //  Jeetrium
 //
 //  Created by Mihail Koltsov on 7/23/12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.
 //
 
-#import "UIImage+MetroImages.h"
+#import "UIImage+JTImages.h"
 #import "AdvancedGraphics.h"
 
-@implementation UIImage (MetroImages)
+@implementation UIImage (JTImages)
 
 
 +(UIImage*)addPhotoImage
@@ -19,7 +19,7 @@
 
 +(UIImage*)addPhotoImageWithSize:(CGSize)size
 {
-    return [UIImage metroStyledImage:@"addPhoto.png" WithSize:size];
+    return [UIImage jtStyledImage:@"addPhoto.png" WithSize:size];
 }
 
 +(UIImage*)noPhotoImage
@@ -29,14 +29,14 @@
 
 +(UIImage*)noPhotoImageWithSize:(CGSize)size
 {
-    return [UIImage metroStyledImage:@"Photo.png" WithSize:size];
+    return [UIImage jtStyledImage:@"Photo.png" WithSize:size];
 }
 
 
 
 
 
-+(UIImage*)metroStyledImage:(NSString*)imageName WithSize:(CGSize)size
++(UIImage*)jtStyledImage:(NSString*)imageName WithSize:(CGSize)size
 {
     CGFloat scale=1.f;
     if ([[UIScreen mainScreen] respondsToSelector:@selector(displayLinkWithTarget:selector:)] &&

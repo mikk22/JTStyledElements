@@ -1,6 +1,6 @@
 //
 //  JTAnimatedView.m
-//  Viewer
+//  Jeetrium
 //
 //  Created by Mihail Koltsov on 8/13/12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.

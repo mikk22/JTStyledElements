@@ -1,18 +1,18 @@
 //
-//  JTButton+MetroButton.m
+//  JTStyledButton+JTButton.m
 //  Jeetrium
 //
 //  Created by Mihail Koltsov on 6/18/12.
 //  Copyright (c) 2012 Intelvision. All rights reserved.
 //
 
-#import "JTButton+MetroButton.h"
+#import "JTStyledButton+JTButton.h"
 
 @implementation JTStyledButton (MetroButton)
 
 
 
-+(id)metroButton
++(id)jtButton
 {
     JTStyledButton *button=[JTStyledButton buttonWithType:UIButtonTypeCustom];
     if (button)
@@ -53,7 +53,7 @@
 
 
 
-+(id)inversedMetroButton
++(id)inversedJTButton
 {
     JTStyledButton *button=[JTStyledButton buttonWithType:UIButtonTypeCustom];
     if (button)

@@ -1,5 +1,5 @@
 //
-//  JTStyleDefines.h
+//  JTStyledDefines.h
 //  Jeetrium
 //
 //  Created by Mihail Koltsov on 5/24/12.
@@ -39,14 +39,3 @@
 #define METRO_TEXTLABEL_LEFT_OFFSET         12.f
 
 #define PHOTO_VIEW_CELL_TEXTLABEL_HEIGHT    31.f
-
-
-#import "JTStyledCell.h"
-#import "JTStyledPageControl.h"
-#import "JTStyledTextField.h"
-#import "JTStyledTextView.h"
-#import "JTStyledTimeLineView.h"
-#import "JTStyledView.h"
-#import "JTStyledArrowView.h"
-#import "JTStyledButton.h"
-#import "JTButton+MetroButton.h"
