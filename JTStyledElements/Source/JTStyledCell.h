@@ -9,8 +9,9 @@
 
 typedef enum
 {
-    JTMetroCellLayoutStyleGrouped=0,
-    JTMetroCellLayoutStylePlain=1
+    JTMetroCellLayoutStyleDefault=0,
+    JTMetroCellLayoutStylePlain,
+    JTMetroCellLayoutStyleGrouped
 } JTMetroCellLayoutStyle;
 
 

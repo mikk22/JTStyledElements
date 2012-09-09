@@ -38,18 +38,34 @@
     
     switch (self.layoutStyle)
     {
+          /*
+        case JTMetroCellLayoutStyleDefault:
+        {
+            
+            self.textField.frame=CGRectMake(METRO_CELL_LEFT_OFFSET,
+                                            METRO_CELL_TOP_OFFSET,
+                                            CGRectGetWidth(self.contentView.frame)-2*METRO_CELL_LEFT_OFFSET,
+                                            CGRectGetHeight(self.contentView.frame)-2*METRO_CELL_TOP_OFFSET
+                                            );
+            
+            break;
+        }
+        */
+            
         case JTMetroCellLayoutStylePlain:
         {
-            self.textField.frame=self.contentView.bounds;
+            self.textField.frame=CGRectMake(METRO_CELL_LEFT_OFFSET,
+                                            METRO_CELL_TOP_OFFSET,
+                                            CGRectGetWidth(self.contentView.frame)-2*METRO_CELL_LEFT_OFFSET,
+                                            CGRectGetHeight(self.contentView.frame)-2*METRO_CELL_TOP_OFFSET
+                                           );
+             
             break;
         }
         case JTMetroCellLayoutStyleGrouped:
         default:
         {
-            self.textField.frame=CGRectMake(METRO_CELL_LEFT_OFFSET,
-                                            METRO_CELL_TOP_OFFSET,
-                                            CGRectGetWidth(self.contentView.frame)-2*METRO_CELL_LEFT_OFFSET,
-                                            CGRectGetHeight(self.contentView.frame)-2*METRO_CELL_TOP_OFFSET);
+            self.textField.frame=self.contentView.bounds;
             break;
         }
     }

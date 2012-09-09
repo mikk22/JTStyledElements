@@ -13,7 +13,7 @@
 
 @synthesize fillColor=_fillColor;
 @synthesize metroStyleColors=_metroStyleColors;
-
+@synthesize arrowStyle=_arrowStyle;
 
 -(void)setFillColor:(UIColor *)fillColor
 {
@@ -68,9 +68,13 @@
         self.layer.masksToBounds = NO;
         
         //self.layer.cornerRadius = 8; // if you like rounded corners
+        
+        
         self.layer.shadowOffset = CGSizeMake(0, -5);
         self.layer.shadowRadius = 3;
         self.layer.shadowOpacity = 0.6;
+        self.layer.shouldRasterize=YES;
+        self.layer.rasterizationScale=[UIScreen mainScreen].scale;
         
         self.backgroundColor=[UIColor clearColor];
         
@@ -95,6 +99,30 @@
 }
 */
 
+
+-(void)setArrowStyle:(JTStyledArrowViewArrowPosition)arrowStyle
+{
+    _arrowStyle=arrowStyle;
+    
+    
+    switch (arrowStyle)
+    {
+        case JTStyledArrowViewArrowTop:
+        {
+            self.layer.shadowOffset = CGSizeMake(0, -5);
+            break;
+        }
+        case JTStyledArrowViewArrowLeft:
+        {
+            self.layer.shadowOffset = CGSizeMake(-5, 5);
+            break;
+        }
+        default:
+            break;
+    }
+    
+    [self setNeedsDisplay];
+}
 
 
 
@@ -132,20 +160,49 @@
 		
         miny += 1;
 		
-        CGMutablePathRef path = CGPathCreateMutable();
-    CGPathMoveToPoint(path, NULL, minx, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
-    //
-    CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_LEFT_OFFSET, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
-
-    CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_LEFT_OFFSET+METRO_ARROWVIEW_ARROW_WIDTH, miny);
-    CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_LEFT_OFFSET+2*METRO_ARROWVIEW_ARROW_WIDTH, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
+    CGMutablePathRef path = CGPathCreateMutable();
     
+    switch (self.arrowStyle)
+    {
+        case JTStyledArrowViewArrowTop:
+        {
+            //
+            //arrow
+            //
+            CGPathMoveToPoint(path, NULL, minx, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_LEFT_OFFSET, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_LEFT_OFFSET+METRO_ARROWVIEW_ARROW_WIDTH, miny);
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_LEFT_OFFSET+2*METRO_ARROWVIEW_ARROW_WIDTH, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
+            //
+            CGPathAddLineToPoint(path, NULL, maxx, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
+            CGPathAddLineToPoint(path, NULL, maxx, maxy);
+            CGPathAddLineToPoint(path, NULL, minx, maxy);
+            CGPathAddLineToPoint(path, NULL, minx, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
+            break;
+        }
+        case JTStyledArrowViewArrowLeft:
+        {
+            CGPathMoveToPoint(path, NULL, minx, miny);
+            CGPathAddLineToPoint(path, NULL, maxx, miny);
+            CGPathAddLineToPoint(path, NULL, maxx, maxy);
+            //
+            //arrow
+            //
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_HEIGHT, maxy);
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_HEIGHT,
+                                             miny+METRO_ARROWVIEW_ARROW_LEFT_OFFSET+2*METRO_ARROWVIEW_ARROW_WIDTH);
+            CGPathAddLineToPoint(path, NULL, minx,
+                                 miny+METRO_ARROWVIEW_ARROW_LEFT_OFFSET+METRO_ARROWVIEW_ARROW_WIDTH);
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_HEIGHT,
+                                 miny+METRO_ARROWVIEW_ARROW_LEFT_OFFSET);
+            CGPathAddLineToPoint(path, NULL, minx+METRO_ARROWVIEW_ARROW_HEIGHT, miny);
+            
+            break;
+        }
+        default:
+            break;
+    }
     
-    //    
-    CGPathAddLineToPoint(path, NULL, maxx, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
-    CGPathAddLineToPoint(path, NULL, maxx, maxy);
-    CGPathAddLineToPoint(path, NULL, minx, maxy);
-    CGPathAddLineToPoint(path, NULL, minx, miny+METRO_ARROWVIEW_ARROW_HEIGHT);
 
     CGPathCloseSubpath(path);
     

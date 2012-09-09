@@ -21,6 +21,7 @@
 #import "JTBarButton.h"
 #import "JTAnimatedView.h"
 #import "JTPagedView.h"
+#import "JTStyledBarView.h"
 #import "JTRoundRectButton.h"
 
 #import "JTStyledButton+JTButton.h"

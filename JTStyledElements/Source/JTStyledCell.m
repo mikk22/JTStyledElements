@@ -22,7 +22,8 @@
         self.selectedBackgroundView=[[JTStyledView alloc] initWithFrame:CGRectZero];
         self.backgroundView=[[JTStyledView alloc] initWithFrame:CGRectZero];
         self.backgroundView.backgroundColor=[UIColor clearColor];
-        self.contentView.backgroundColor=[UIColor clearColor];
+        self.contentView.backgroundColor=[UIColor whiteColor];
+        //self.backgroundColor=[UIColor greenColor];
 
         self.textLabel.textColor=[UIColor whiteColor];
         self.textLabel.highlightedTextColor = [UIColor whiteColor];
@@ -93,19 +94,35 @@
  
     switch (self.layoutStyle)
     {
+        case JTMetroCellLayoutStyleDefault:
+        {
+            break;
+        }
         case JTMetroCellLayoutStylePlain:
         {
             backgroundViewFrame.size.height=backgroundViewFrame.size.height-0.5f;
+            self.contentView.frame=backgroundViewFrame;
+            self.backgroundView.frame=backgroundViewFrame;
+            self.selectedBackgroundView.frame=backgroundViewFrame;
             break;
         }
         case JTMetroCellLayoutStyleGrouped:
+        {
+            backgroundViewFrame=CGRectMake(METRO_CELL_LEFT_OFFSET,
+                                           METRO_CELL_TOP_OFFSET,
+                                           CGRectGetWidth(backgroundViewFrame)-2*METRO_CELL_LEFT_OFFSET,
+                                           CGRectGetHeight(backgroundViewFrame)-2*METRO_CELL_TOP_OFFSET
+                                          );
+
+            self.contentView.frame=backgroundViewFrame;
+            self.backgroundView.frame=backgroundViewFrame;
+            self.selectedBackgroundView.frame=backgroundViewFrame;
+            break;
+        }
         default:
             break;
     }
     
-    self.contentView.frame=backgroundViewFrame;
-    self.backgroundView.frame=backgroundViewFrame;
-    self.selectedBackgroundView.frame=backgroundViewFrame;
 }
 
 
