@@ -23,6 +23,7 @@
 +(id)darkGradientView
 {
     JTStyledView *view=[[JTStyledView alloc] initWithFrame:CGRectZero];
+    view.backgroundColor=[UIColor clearColor];
     view.metroStyleColors=METRO_DARK_GRADIENT_COLORS;
     return view;
 }
@@ -31,6 +32,21 @@
 {
     JTStyledView *view=[[JTStyledView alloc] initWithFrame:CGRectZero];
     view.metroStyleColors=METRO_LIGHT_GRADIENT_COLORS;
+    return view;
+}
+
++(id)darkView
+{
+    JTStyledView *view=[[JTStyledView alloc] initWithFrame:CGRectZero];
+    view.backgroundColor=[UIColor clearColor];
+    view.metroStyleColors=METRO_DARK_COLORS;
+    return view;
+}
+
++(id)lightView
+{
+    JTStyledView *view=[[JTStyledView alloc] initWithFrame:CGRectZero];
+    view.metroStyleColors=METRO_LIGHT_COLORS;
     return view;
 }
 

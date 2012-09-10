@@ -16,7 +16,8 @@
 
 @property (nonatomic, strong)   NSArray *metroStyleColors;
 
-
++(id)darkView;
++(id)lightView;
 +(id)darkGradientView;
 +(id)lightGradientView;
 

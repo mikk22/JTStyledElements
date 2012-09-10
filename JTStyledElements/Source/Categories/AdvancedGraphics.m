@@ -106,12 +106,14 @@ void drawGradientWithColors(NSArray *_colors, CGRect frame)
     CGColorSpaceRelease(colorSpace);
     
     // bottom line
+    /*
     CGFloat red, green, blue, alpha;
     [[_colors objectAtIndex:0] getRed:&red green:&green blue:&blue alpha:&alpha];
     CGContextSetRGBStrokeColor(context, red, green, blue, alpha);    
     CGContextMoveToPoint(context, CGRectGetMinX(frame), CGRectGetMaxY(frame));
     CGContextAddLineToPoint(context, CGRectGetMaxX(frame), CGRectGetMaxY(frame));
     CGContextStrokePath(context);
+    */
 }
 
 

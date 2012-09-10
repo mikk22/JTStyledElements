@@ -19,11 +19,9 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self)
     {
-        self.selectedBackgroundView=[[JTStyledView alloc] initWithFrame:CGRectZero];
-        self.backgroundView=[[JTStyledView alloc] initWithFrame:CGRectZero];
-        self.backgroundView.backgroundColor=[UIColor clearColor];
-        self.contentView.backgroundColor=[UIColor whiteColor];
-        //self.backgroundColor=[UIColor greenColor];
+        self.selectedBackgroundView=[JTStyledView darkGradientView];
+        self.backgroundView=[JTStyledView lightGradientView];
+        self.contentView.backgroundColor=[UIColor clearColor];
 
         self.textLabel.textColor=[UIColor whiteColor];
         self.textLabel.highlightedTextColor = [UIColor whiteColor];
@@ -35,9 +33,8 @@
         self.detailTextLabel.backgroundColor=[UIColor clearColor];
         self.detailTextLabel.font=METRO_DEFAULT_FONT;
         
-        self.backgroundView.backgroundColor=[UIColor whiteColor];        
-        
-        switch (style) {
+        switch (style)
+        {
             case UITableViewCellStyleValue1:
             {
                 self.textLabel.textAlignment=UITextAlignmentLeft;
@@ -52,77 +49,86 @@
             }
         }
         
-        
     }
     return self;
 }
 
 
 
-#pragma mark - Properties -
-
-
--(void)setLayoutStyle:(JTMetroCellLayoutStyle)layoutStyle
-{
-    _layoutStyle=layoutStyle;
-    [self setNeedsLayout];
-}
-
-
-
-/*
--(void)setBackgroundView:(JTMetroView *)backgroundView
-{
-    super.backgroundView=backgroundView;
-}
-
-
--(JTMetroView*)backgroundView
-{
-    return (JTMetroView*)super.backgroundView;
-}
-*/
-
-
-
-
-
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-    CGRect backgroundViewFrame=self.backgroundView.frame;
- 
+    
+    //dirty hack for fullscreen cell width
+    if (!CGRectIsEmpty(self.superview.bounds))
+    {
+        self.backgroundView.frame=CGRectMake(0, 0, CGRectGetWidth(self.superview.frame), CGRectGetHeight(self.backgroundView.frame));
+        self.selectedBackgroundView.frame=CGRectMake(0, 0, CGRectGetWidth(self.superview.frame), CGRectGetHeight(self.backgroundView.frame));
+        self.contentView.frame=CGRectMake(0, 0, CGRectGetWidth(self.superview.frame), CGRectGetHeight(self.backgroundView.frame));
+    }
+    
+    CGRect backgroundViewFrame=self.backgroundView.bounds;
+    
+    //resizing with JTStyledCell bounds
     switch (self.layoutStyle)
     {
-        case JTMetroCellLayoutStyleDefault:
-        {
-            break;
-        }
         case JTMetroCellLayoutStylePlain:
         {
-            backgroundViewFrame.size.height=backgroundViewFrame.size.height-0.5f;
-            self.contentView.frame=backgroundViewFrame;
-            self.backgroundView.frame=backgroundViewFrame;
-            self.selectedBackgroundView.frame=backgroundViewFrame;
+            backgroundViewFrame=CGRectMake(METRO_CELL_LEFT_OFFSET,
+                                           0.f,
+                                           CGRectGetWidth(backgroundViewFrame)-2*METRO_CELL_LEFT_OFFSET,
+                                           CGRectGetHeight(backgroundViewFrame)-0.5f
+                                           );
             break;
         }
-        case JTMetroCellLayoutStyleGrouped:
+        case JTMetroCellLayoutStyleBordered:
+        default:
         {
             backgroundViewFrame=CGRectMake(METRO_CELL_LEFT_OFFSET,
                                            METRO_CELL_TOP_OFFSET,
                                            CGRectGetWidth(backgroundViewFrame)-2*METRO_CELL_LEFT_OFFSET,
                                            CGRectGetHeight(backgroundViewFrame)-2*METRO_CELL_TOP_OFFSET
-                                          );
-
-            self.contentView.frame=backgroundViewFrame;
-            self.backgroundView.frame=backgroundViewFrame;
-            self.selectedBackgroundView.frame=backgroundViewFrame;
+                                           );
             break;
         }
-        default:
-            break;
     }
     
+    self.backgroundView.frame=backgroundViewFrame;
+    self.selectedBackgroundView.frame=backgroundViewFrame;
+    self.contentView.frame=backgroundViewFrame;
+    
+    CGRect textlabelFrame=self.textLabel.frame;
+    textlabelFrame.size.height=CGRectGetHeight(self.contentView.bounds);
+    self.textLabel.frame=textlabelFrame;
+    CGRect detailTextlabelFrame=self.detailTextLabel.frame;
+    detailTextlabelFrame.size.height=CGRectGetHeight(self.contentView.bounds);
+    self.detailTextLabel.frame=detailTextlabelFrame;
+}
+
+#pragma mark - Properties -
+
+-(void)setLayoutStyle:(JTMetroCellLayoutStyle)layoutStyle
+{
+    _layoutStyle=layoutStyle;
+    
+    switch (layoutStyle)
+    {
+        case JTMetroCellLayoutStylePlain:
+        {
+            self.selectedBackgroundView=[JTStyledView darkView];
+            self.backgroundView=[JTStyledView lightView];
+            break;
+        }
+        case JTMetroCellLayoutStyleBordered:
+        default:
+        {
+            self.selectedBackgroundView=[JTStyledView darkGradientView];
+            self.backgroundView=[JTStyledView lightGradientView];
+            break;
+        }
+    }
+
+    [self setNeedsLayout];
 }
 
 

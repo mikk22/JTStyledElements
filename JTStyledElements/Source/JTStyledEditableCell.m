@@ -35,10 +35,10 @@
 {
     [super layoutSubviews];
     self.textLabel.frame=CGRectZero;
-    
+
     switch (self.layoutStyle)
     {
-          /*
+            /*
         case JTMetroCellLayoutStyleDefault:
         {
             
@@ -50,7 +50,6 @@
             
             break;
         }
-        */
             
         case JTMetroCellLayoutStylePlain:
         {
@@ -59,17 +58,16 @@
                                             CGRectGetWidth(self.contentView.frame)-2*METRO_CELL_LEFT_OFFSET,
                                             CGRectGetHeight(self.contentView.frame)-2*METRO_CELL_TOP_OFFSET
                                            );
-             
             break;
         }
         case JTMetroCellLayoutStyleGrouped:
+            */
         default:
         {
             self.textField.frame=self.contentView.bounds;
             break;
         }
     }
-    
 }
 
 
@@ -87,7 +85,7 @@
             self.textField.metroStyleColors=METRO_LIGHT_COLORS;
             break;
         }
-        case JTMetroCellLayoutStyleGrouped:
+        case JTMetroCellLayoutStyleBordered:
         default:
         {
             self.textField.editingMetroStyleColors=METRO_DARK_GRADIENT_COLORS;
@@ -95,9 +93,7 @@
             break;
         }
     }
-    
-    
-    
+
     [super setLayoutStyle:layoutStyle];
 }
 

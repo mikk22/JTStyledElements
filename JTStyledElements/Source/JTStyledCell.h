@@ -9,22 +9,20 @@
 
 typedef enum
 {
-    JTMetroCellLayoutStyleDefault=0,
+    JTMetroCellLayoutStyleBordered=0,
     JTMetroCellLayoutStylePlain,
-    JTMetroCellLayoutStyleGrouped
 } JTMetroCellLayoutStyle;
 
 
 #import <UIKit/UIKit.h>
 
+@class JTStyledView;
 
 @interface JTStyledCell : UITableViewCell
 {
     JTMetroCellLayoutStyle        _layoutStyle;
 }
 
-
-//@property (nonatomic, strong)   JTMetroView               *backgroundView;
 @property (nonatomic)           JTMetroCellLayoutStyle    layoutStyle;
 
 @end
