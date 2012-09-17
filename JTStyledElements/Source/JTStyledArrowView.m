@@ -70,7 +70,7 @@
         //self.layer.cornerRadius = 8; // if you like rounded corners
         
         
-        self.layer.shadowOffset = CGSizeMake(0, -5);
+        self.layer.shadowOffset = CGSizeMake(0, -METRO_ARROWVIEW_SHADOW_OFFSET);
         self.layer.shadowRadius = 3;
         self.layer.shadowOpacity = 0.6;
         self.layer.shouldRasterize=YES;
@@ -109,12 +109,12 @@
     {
         case JTStyledArrowViewArrowTop:
         {
-            self.layer.shadowOffset = CGSizeMake(0, -5);
+            self.layer.shadowOffset = CGSizeMake(0, -METRO_ARROWVIEW_SHADOW_OFFSET);
             break;
         }
         case JTStyledArrowViewArrowLeft:
         {
-            self.layer.shadowOffset = CGSizeMake(-5, 5);
+            self.layer.shadowOffset = CGSizeMake(-METRO_ARROWVIEW_SHADOW_OFFSET, METRO_ARROWVIEW_SHADOW_OFFSET);
             break;
         }
         default:
@@ -134,7 +134,7 @@
     
     int lineWidth = 1;
 	
-    CGRect rect = [self bounds];	
+    CGRect rect = aRect;//[self bounds];
     CGFloat minx = CGRectGetMinX(rect), maxx = CGRectGetMaxX(rect); //, midx = CGRectGetMidX(rect)
     CGFloat miny = CGRectGetMinY(rect), maxy = CGRectGetMaxY(rect); //, midy = CGRectGetMidY(rect)
     miny -= 1;

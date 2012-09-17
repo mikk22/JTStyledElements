@@ -6,10 +6,7 @@
 //  Copyright (c) 2012 Intelvision. All rights reserved.
 //
 #import <UIKit/UIKit.h>
-
-
-#define _BAR_BUTTON_LEFT_OFFSET  5.f
-#define _BAR_BUTTON_TOP_OFFSET   5.f
+#import "JTStyledDefines.h"
 
 //#define BAR_BUTTON_TITLE_HEIGHT 15.f
 
@@ -53,6 +50,7 @@ typedef enum
 @property (nonatomic)           BOOL                                    allowsMultipleSelection;
 @property (nonatomic)           BOOL                                    centerContent;
 @property (nonatomic, readonly) NSDictionary                            *buttons;
+@property (nonatomic, readonly) NSArray                                 *allButtons;
 @property (nonatomic, strong)   NSArray                                 *selectedIndexes;
 
 

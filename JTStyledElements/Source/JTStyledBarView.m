@@ -33,7 +33,16 @@
 -(void)layoutSubviews
 {
     [super layoutSubviews];
-    self.barView.frame=CGRectMake(METRO_ARROWVIEW_ARROW_WIDTH+5, 5, CGRectGetWidth(self.bounds)-METRO_ARROWVIEW_ARROW_WIDTH-2*5, CGRectGetHeight(self.bounds)-2*5);
+    /*
+    self.barView.frame=CGRectMake(METRO_ARROWVIEW_ARROW_WIDTH+METRO_CELL_TOP_OFFSET,
+                                  METRO_CELL_TOP_OFFSET,
+                                  CGRectGetWidth(self.bounds)-METRO_ARROWVIEW_ARROW_WIDTH-2*METRO_CELL_TOP_OFFSET,
+                                  CGRectGetHeight(self.bounds)-2*METRO_CELL_TOP_OFFSET);
+    */
+    self.barView.frame=CGRectMake(METRO_ARROWVIEW_ARROW_WIDTH+METRO_CELL_TOP_OFFSET,
+                                  0.f,
+                                  CGRectGetWidth(self.bounds)-METRO_ARROWVIEW_ARROW_WIDTH-2*METRO_CELL_TOP_OFFSET,
+                                  CGRectGetHeight(self.bounds));
 }
 
 #pragma mark - Properties -

@@ -80,8 +80,8 @@
         self.delaysContentTouches=YES;
         
         self.backgroundColor=[UIColor colorWithWhite:0.f alpha:0.7];
-        _horizontalOffset=_BAR_BUTTON_LEFT_OFFSET;
-        _verticalOffset=_BAR_BUTTON_TOP_OFFSET;
+        _horizontalOffset=METRO_CELL_LEFT_OFFSET;//_BAR_BUTTON_LEFT_OFFSET;
+        _verticalOffset=METRO_CELL_LEFT_OFFSET;//_BAR_BUTTON_TOP_OFFSET;
     }
 
     return self;
@@ -102,8 +102,7 @@
 }
 
 
-#pragma mark - 
-#pragma mark - Internal messages
+#pragma mark - Internal messages -
 
 
 
@@ -268,8 +267,23 @@
 
 
 
-#pragma mark -
-#pragma mark - Properties
+#pragma mark - Properties -
+
+-(NSArray*)allButtons
+{
+    NSMutableArray *allButtons=[NSMutableArray array];
+    NSArray *allKeys=[[self.barButtons allKeys] sortedArrayUsingSelector:@selector(compare:)];
+    for (NSString *key in allKeys)
+    {
+        NSArray *buttons=![[self.barButtons objectForKey:key] isEqual:[NSNull null]] ? [self.barButtons objectForKey:key] : nil;
+        if ([buttons count])
+        {
+            [allButtons addObjectsFromArray:buttons];
+        }
+    }
+    
+    return [NSArray arrayWithArray:allButtons];
+}
 
 
 -(void)setCenterContent:(BOOL)centerContent

@@ -8,6 +8,7 @@
 
 #import "JTStyledArrowView.h"
 #import "JTBarView.h"
+#import "JTStyledDefines.h"
 
 @interface JTStyledBarView : JTStyledArrowView
 {

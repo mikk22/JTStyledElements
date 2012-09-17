@@ -13,6 +13,9 @@
 #define METRO_ARROWVIEW_ARROW_WIDTH         7.f
 #define METRO_ARROWVIEW_ARROW_HEIGHT        8.f
 
+#define METRO_ARROWVIEW_SHADOW_OFFSET       5.f
+
+
 typedef enum
 {
     JTStyledArrowViewArrowTop=0,
