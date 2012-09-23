@@ -19,7 +19,7 @@
 
 +(UIImage*)addPhotoImageWithSize:(CGSize)size
 {
-    return [UIImage jtStyledImage:@"addPhoto.png" WithSize:size];
+    return [UIImage jtStyledImage:@"JTStyledElementsBundle.bundle/addPhoto.png" WithSize:size];
 }
 
 +(UIImage*)noPhotoImage
@@ -29,7 +29,7 @@
 
 +(UIImage*)noPhotoImageWithSize:(CGSize)size
 {
-    return [UIImage jtStyledImage:@"Photo.png" WithSize:size];
+    return [UIImage jtStyledImage:@"JTStyledElementsBundle.bundle/Photo.png" WithSize:size];
 }
 
 
@@ -58,6 +58,16 @@
     if (imageName)
     {
         UIImage *photoCameraImage=[UIImage imageNamed:imageName];
+
+        NSString *resourceBundlePath = [[NSBundle mainBundle] pathForResource:@"JTStyledElementsBundle" ofType:@"bundle"];
+        NSBundle *resourceBundle = [NSBundle bundleWithPath:resourceBundlePath];
+        
+        NSLog(@"resourceBundlePath %@",resourceBundlePath);
+        NSLog(@"resourceBundle %@",resourceBundle);
+        
+        NSLog(@"PATH %@",imageName);
+        NSLog(@"IMAGE %@",photoCameraImage);
+        
         CGRect rect = CGRectMake(0.25f*size.width, 0.325f*size.height, 0.5f*size.width, 0.35f*size.height);
         
         CGContextDrawImage(context, rect, photoCameraImage.CGImage);

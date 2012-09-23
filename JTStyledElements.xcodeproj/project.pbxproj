@@ -7,32 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE1E3779160F669E00098C98 /* JTStyledElementsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1E3778160F669E00098C98 /* JTStyledElementsBundle.bundle */; };
+		CE1E3783160F686600098C98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1E3785160F686600098C98 /* Localizable.strings */; };
+		CE1E3787160F689D00098C98 /* libJTStyledElements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */; };
 		CEAC384A160EFAE6002E4E01 /* JTStyledBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC3849160EFAE6002E4E01 /* JTStyledBarView.m */; };
-		D966EA4115F5F3DE00F07310 /* addPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = D966EA1015F5F3DE00F07310 /* addPhoto.png */; };
-		D966EA4215F5F3DE00F07310 /* Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D966EA1115F5F3DE00F07310 /* Photo.png */; };
-		D966EA4315F5F3DE00F07310 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */; };
-		D966EA4415F5F3DE00F07310 /* JTStyledButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1715F5F3DE00F07310 /* JTStyledButton+JTButton.m */; };
-		D966EA4515F5F3DE00F07310 /* UIButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1915F5F3DE00F07310 /* UIButton+JTButton.m */; };
-		D966EA4615F5F3DE00F07310 /* UIColor+AdvancedColors.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1B15F5F3DE00F07310 /* UIColor+AdvancedColors.m */; };
-		D966EA4715F5F3DE00F07310 /* UIImage+AdvancedProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1D15F5F3DE00F07310 /* UIImage+AdvancedProcessing.m */; };
-		D966EA4815F5F3DE00F07310 /* UIImage+JTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1F15F5F3DE00F07310 /* UIImage+JTImages.m */; };
-		D966EA4915F5F3DE00F07310 /* JTAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2115F5F3DE00F07310 /* JTAnimatedView.m */; };
-		D966EA4A15F5F3DE00F07310 /* JTBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2315F5F3DE00F07310 /* JTBarButton.m */; };
-		D966EA4B15F5F3DE00F07310 /* JTBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2515F5F3DE00F07310 /* JTBarView.m */; };
-		D966EA4C15F5F3DE00F07310 /* JTHelpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2715F5F3DE00F07310 /* JTHelpImageView.m */; };
-		D966EA4D15F5F3DE00F07310 /* JTPagedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2915F5F3DE00F07310 /* JTPagedView.m */; };
-		D966EA4E15F5F3DE00F07310 /* JTRoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2B15F5F3DE00F07310 /* JTRoundRectButton.m */; };
-		D966EA4F15F5F3DE00F07310 /* JTStyledArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2D15F5F3DE00F07310 /* JTStyledArrowView.m */; };
-		D966EA5015F5F3DE00F07310 /* JTStyledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA2F15F5F3DE00F07310 /* JTStyledButton.m */; };
-		D966EA5115F5F3DE00F07310 /* JTStyledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3115F5F3DE00F07310 /* JTStyledCell.m */; };
-		D966EA5215F5F3DE00F07310 /* JTStyledEditableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3415F5F3DE00F07310 /* JTStyledEditableCell.m */; };
-		D966EA5315F5F3DE00F07310 /* JTStyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3815F5F3DE00F07310 /* JTStyledPageControl.m */; };
-		D966EA5415F5F3DE00F07310 /* JTStyledTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3A15F5F3DE00F07310 /* JTStyledTextField.m */; };
-		D966EA5515F5F3DE00F07310 /* JTStyledTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3C15F5F3DE00F07310 /* JTStyledTextView.m */; };
-		D966EA5615F5F3DE00F07310 /* JTStyledTimeLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA3E15F5F3DE00F07310 /* JTStyledTimeLineView.m */; };
-		D966EA5715F5F3DE00F07310 /* JTStyledView.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA4015F5F3DE00F07310 /* JTStyledView.m */; };
-		D966EA5A15F5F44B00F07310 /* JTStyledButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA5915F5F44B00F07310 /* JTStyledButtonViewController.m */; };
-		D966EA5D15F5FA8600F07310 /* JTStyledTextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA5C15F5FA8500F07310 /* JTStyledTextViewViewController.m */; };
 		D98B52FA15F4D64D00A7FCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F915F4D64D00A7FCB7 /* Foundation.framework */; };
 		D98B533815F4D7AB00A7FCB7 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530D15F4D7AB00A7FCB7 /* AdvancedGraphics.m */; };
 		D98B533915F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530F15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m */; };
@@ -57,26 +35,16 @@
 		D98B534C15F4D7AC00A7FCB7 /* JTRoundRectButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B533615F4D7AB00A7FCB7 /* JTRoundRectButton.m */; };
 		D98B534E15F4D92D00A7FCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B534D15F4D92D00A7FCB7 /* UIKit.framework */; };
 		D98B535015F4D93600A7FCB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B534F15F4D93600A7FCB7 /* QuartzCore.framework */; };
-		D98B535715F4DB1800A7FCB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B534D15F4D92D00A7FCB7 /* UIKit.framework */; };
-		D98B535815F4DB1800A7FCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F915F4D64D00A7FCB7 /* Foundation.framework */; };
-		D98B535A15F4DB1800A7FCB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B535915F4DB1800A7FCB7 /* CoreGraphics.framework */; };
-		D98B536015F4DB1800A7FCB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D98B535E15F4DB1800A7FCB7 /* InfoPlist.strings */; };
-		D98B536215F4DB1800A7FCB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B536115F4DB1800A7FCB7 /* main.m */; };
-		D98B536615F4DB1800A7FCB7 /* JTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B536515F4DB1800A7FCB7 /* JTAppDelegate.m */; };
-		D98B537A15F4DCC300A7FCB7 /* JTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B537915F4DCC300A7FCB7 /* JTViewController.m */; };
-		D98B53C715F4DE8200A7FCB7 /* libJTStyledElements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */; };
 		D98B541115F4E03500A7FCB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B535915F4DB1800A7FCB7 /* CoreGraphics.framework */; };
-		D98B541215F4E09100A7FCB7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B534F15F4D93600A7FCB7 /* QuartzCore.framework */; };
-		D98B541515F4E17200A7FCB7 /* JTStyledPageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B541415F4E17200A7FCB7 /* JTStyledPageControlViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D98B53C515F4DE7D00A7FCB7 /* PBXContainerItemProxy */ = {
+		CE1E374A160F5A0B00098C98 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D98B52ED15F4D64D00A7FCB7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D98B52F515F4D64D00A7FCB7;
-			remoteInfo = JTStyledElements;
+			remoteGlobalIDString = CE1E3623160F38A400098C98;
+			remoteInfo = JTStyledElementsBundle;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -93,64 +61,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE1E3624160F38A400098C98 /* JTStyledElementsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTStyledElementsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE1E3628160F38A400098C98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CE1E3629160F38A400098C98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CE1E362A160F38A400098C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE1E362D160F38A400098C98 /* JTStyledElementsBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTStyledElementsBundle-Info.plist"; sourceTree = "<group>"; };
+		CE1E3778160F669E00098C98 /* JTStyledElementsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JTStyledElementsBundle.bundle; sourceTree = "<group>"; };
+		CE1E3784160F686600098C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CE1E3786160F686A00098C98 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CEAC3848160EFAE6002E4E01 /* JTStyledBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledBarView.h; sourceTree = "<group>"; };
 		CEAC3849160EFAE6002E4E01 /* JTStyledBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledBarView.m; sourceTree = "<group>"; };
 		D966EA0D15F5EEBA00F07310 /* JTStyledElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTStyledElements.h; sourceTree = "<group>"; };
-		D966EA1015F5F3DE00F07310 /* addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPhoto.png; sourceTree = "<group>"; };
-		D966EA1115F5F3DE00F07310 /* Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photo.png; sourceTree = "<group>"; };
-		D966EA1415F5F3DE00F07310 /* AdvancedGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedGraphics.h; sourceTree = "<group>"; };
-		D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedGraphics.m; sourceTree = "<group>"; };
-		D966EA1615F5F3DE00F07310 /* JTStyledButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledButton+JTButton.h"; sourceTree = "<group>"; };
-		D966EA1715F5F3DE00F07310 /* JTStyledButton+JTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "JTStyledButton+JTButton.m"; sourceTree = "<group>"; };
-		D966EA1815F5F3DE00F07310 /* UIButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JTButton.h"; sourceTree = "<group>"; };
-		D966EA1915F5F3DE00F07310 /* UIButton+JTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JTButton.m"; sourceTree = "<group>"; };
-		D966EA1A15F5F3DE00F07310 /* UIColor+AdvancedColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+AdvancedColors.h"; sourceTree = "<group>"; };
-		D966EA1B15F5F3DE00F07310 /* UIColor+AdvancedColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+AdvancedColors.m"; sourceTree = "<group>"; };
-		D966EA1C15F5F3DE00F07310 /* UIImage+AdvancedProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AdvancedProcessing.h"; sourceTree = "<group>"; };
-		D966EA1D15F5F3DE00F07310 /* UIImage+AdvancedProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AdvancedProcessing.m"; sourceTree = "<group>"; };
-		D966EA1E15F5F3DE00F07310 /* UIImage+JTImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JTImages.h"; sourceTree = "<group>"; };
-		D966EA1F15F5F3DE00F07310 /* UIImage+JTImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTImages.m"; sourceTree = "<group>"; };
-		D966EA2015F5F3DE00F07310 /* JTAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAnimatedView.h; sourceTree = "<group>"; };
-		D966EA2115F5F3DE00F07310 /* JTAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAnimatedView.m; sourceTree = "<group>"; };
-		D966EA2215F5F3DE00F07310 /* JTBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarButton.h; sourceTree = "<group>"; };
-		D966EA2315F5F3DE00F07310 /* JTBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarButton.m; sourceTree = "<group>"; };
-		D966EA2415F5F3DE00F07310 /* JTBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarView.h; sourceTree = "<group>"; };
-		D966EA2515F5F3DE00F07310 /* JTBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarView.m; sourceTree = "<group>"; };
-		D966EA2615F5F3DE00F07310 /* JTHelpImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHelpImageView.h; sourceTree = "<group>"; };
-		D966EA2715F5F3DE00F07310 /* JTHelpImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHelpImageView.m; sourceTree = "<group>"; };
-		D966EA2815F5F3DE00F07310 /* JTPagedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPagedView.h; sourceTree = "<group>"; };
-		D966EA2915F5F3DE00F07310 /* JTPagedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPagedView.m; sourceTree = "<group>"; };
-		D966EA2A15F5F3DE00F07310 /* JTRoundRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTRoundRectButton.h; sourceTree = "<group>"; };
-		D966EA2B15F5F3DE00F07310 /* JTRoundRectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTRoundRectButton.m; sourceTree = "<group>"; };
-		D966EA2C15F5F3DE00F07310 /* JTStyledArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledArrowView.h; sourceTree = "<group>"; };
-		D966EA2D15F5F3DE00F07310 /* JTStyledArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledArrowView.m; sourceTree = "<group>"; };
-		D966EA2E15F5F3DE00F07310 /* JTStyledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledButton.h; sourceTree = "<group>"; };
-		D966EA2F15F5F3DE00F07310 /* JTStyledButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledButton.m; sourceTree = "<group>"; };
-		D966EA3015F5F3DE00F07310 /* JTStyledCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledCell.h; sourceTree = "<group>"; };
-		D966EA3115F5F3DE00F07310 /* JTStyledCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledCell.m; sourceTree = "<group>"; };
-		D966EA3215F5F3DE00F07310 /* JTStyledDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledDefines.h; sourceTree = "<group>"; };
-		D966EA3315F5F3DE00F07310 /* JTStyledEditableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledEditableCell.h; sourceTree = "<group>"; };
-		D966EA3415F5F3DE00F07310 /* JTStyledEditableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledEditableCell.m; sourceTree = "<group>"; };
-		D966EA3515F5F3DE00F07310 /* JTStyledElements-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledElements-Prefix.pch"; sourceTree = "<group>"; };
-		D966EA3615F5F3DE00F07310 /* JTStyledElements.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledElements.h; sourceTree = "<group>"; };
-		D966EA3715F5F3DE00F07310 /* JTStyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControl.h; sourceTree = "<group>"; };
-		D966EA3815F5F3DE00F07310 /* JTStyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControl.m; sourceTree = "<group>"; };
-		D966EA3915F5F3DE00F07310 /* JTStyledTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextField.h; sourceTree = "<group>"; };
-		D966EA3A15F5F3DE00F07310 /* JTStyledTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextField.m; sourceTree = "<group>"; };
-		D966EA3B15F5F3DE00F07310 /* JTStyledTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextView.h; sourceTree = "<group>"; };
-		D966EA3C15F5F3DE00F07310 /* JTStyledTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextView.m; sourceTree = "<group>"; };
-		D966EA3D15F5F3DE00F07310 /* JTStyledTimeLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTimeLineView.h; sourceTree = "<group>"; };
-		D966EA3E15F5F3DE00F07310 /* JTStyledTimeLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTimeLineView.m; sourceTree = "<group>"; };
-		D966EA3F15F5F3DE00F07310 /* JTStyledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledView.h; sourceTree = "<group>"; };
-		D966EA4015F5F3DE00F07310 /* JTStyledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledView.m; sourceTree = "<group>"; };
-		D966EA5815F5F44B00F07310 /* JTStyledButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledButtonViewController.h; sourceTree = "<group>"; };
-		D966EA5915F5F44B00F07310 /* JTStyledButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledButtonViewController.m; sourceTree = "<group>"; };
-		D966EA5B15F5FA8500F07310 /* JTStyledTextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledTextViewViewController.h; sourceTree = "<group>"; };
-		D966EA5C15F5FA8500F07310 /* JTStyledTextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledTextViewViewController.m; sourceTree = "<group>"; };
 		D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTStyledElements.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98B52F915F4D64D00A7FCB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D98B530815F4D7AB00A7FCB7 /* addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPhoto.png; sourceTree = "<group>"; };
-		D98B530915F4D7AB00A7FCB7 /* Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photo.png; sourceTree = "<group>"; };
 		D98B530C15F4D7AB00A7FCB7 /* AdvancedGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvancedGraphics.h; sourceTree = "<group>"; };
 		D98B530D15F4D7AB00A7FCB7 /* AdvancedGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvancedGraphics.m; sourceTree = "<group>"; };
 		D98B530E15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledButton+JTButton.h"; sourceTree = "<group>"; };
@@ -197,21 +120,18 @@
 		D98B533715F4D7AB00A7FCB7 /* JTStyledElements-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JTStyledElements-Prefix.pch"; sourceTree = "<group>"; };
 		D98B534D15F4D92D00A7FCB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D98B534F15F4D93600A7FCB7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		D98B535515F4DB1800A7FCB7 /* JTStyledElementsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTStyledElementsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98B535915F4DB1800A7FCB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D98B535D15F4DB1800A7FCB7 /* JTStyledElementsDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTStyledElementsDemo-Info.plist"; sourceTree = "<group>"; };
-		D98B535F15F4DB1800A7FCB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		D98B536115F4DB1800A7FCB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D98B536315F4DB1800A7FCB7 /* JTStyledElementsDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTStyledElementsDemo-Prefix.pch"; sourceTree = "<group>"; };
-		D98B536415F4DB1800A7FCB7 /* JTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTAppDelegate.h; sourceTree = "<group>"; };
-		D98B536515F4DB1800A7FCB7 /* JTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTAppDelegate.m; sourceTree = "<group>"; };
-		D98B537815F4DCC300A7FCB7 /* JTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTViewController.h; sourceTree = "<group>"; };
-		D98B537915F4DCC300A7FCB7 /* JTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTViewController.m; sourceTree = "<group>"; };
-		D98B541315F4E17200A7FCB7 /* JTStyledPageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControlViewController.h; sourceTree = "<group>"; };
-		D98B541415F4E17200A7FCB7 /* JTStyledPageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControlViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		CE1E3621160F38A400098C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1E3787160F689D00098C98 /* libJTStyledElements.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98B52F315F4D64D00A7FCB7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,104 +143,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D98B535215F4DB1800A7FCB7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98B541215F4E09100A7FCB7 /* QuartzCore.framework in Frameworks */,
-				D98B53C715F4DE8200A7FCB7 /* libJTStyledElements.a in Frameworks */,
-				D98B535715F4DB1800A7FCB7 /* UIKit.framework in Frameworks */,
-				D98B535815F4DB1800A7FCB7 /* Foundation.framework in Frameworks */,
-				D98B535A15F4DB1800A7FCB7 /* CoreGraphics.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D966EA0E15F5F3DE00F07310 /* JTStyledElements */ = {
+		CE1E3627160F38A400098C98 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D966EA0F15F5F3DE00F07310 /* Resources */,
-				D966EA1215F5F3DE00F07310 /* Source */,
+				CE1E3628160F38A400098C98 /* AppKit.framework */,
+				CE1E3629160F38A400098C98 /* CoreData.framework */,
+				CE1E362A160F38A400098C98 /* Foundation.framework */,
 			);
-			path = JTStyledElements;
-			sourceTree = SOURCE_ROOT;
-		};
-		D966EA0F15F5F3DE00F07310 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D966EA1015F5F3DE00F07310 /* addPhoto.png */,
-				D966EA1115F5F3DE00F07310 /* Photo.png */,
-			);
-			path = Resources;
+			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		D966EA1215F5F3DE00F07310 /* Source */ = {
+		CE1E362B160F38A400098C98 /* JTStyledElementsBundle */ = {
 			isa = PBXGroup;
 			children = (
-				D966EA1315F5F3DE00F07310 /* Categories */,
-				D966EA2015F5F3DE00F07310 /* JTAnimatedView.h */,
-				D966EA2115F5F3DE00F07310 /* JTAnimatedView.m */,
-				D966EA2215F5F3DE00F07310 /* JTBarButton.h */,
-				D966EA2315F5F3DE00F07310 /* JTBarButton.m */,
-				D966EA2415F5F3DE00F07310 /* JTBarView.h */,
-				D966EA2515F5F3DE00F07310 /* JTBarView.m */,
-				D966EA2615F5F3DE00F07310 /* JTHelpImageView.h */,
-				D966EA2715F5F3DE00F07310 /* JTHelpImageView.m */,
-				D966EA2815F5F3DE00F07310 /* JTPagedView.h */,
-				D966EA2915F5F3DE00F07310 /* JTPagedView.m */,
-				D966EA2A15F5F3DE00F07310 /* JTRoundRectButton.h */,
-				D966EA2B15F5F3DE00F07310 /* JTRoundRectButton.m */,
-				D966EA2C15F5F3DE00F07310 /* JTStyledArrowView.h */,
-				D966EA2D15F5F3DE00F07310 /* JTStyledArrowView.m */,
-				D966EA2E15F5F3DE00F07310 /* JTStyledButton.h */,
-				D966EA2F15F5F3DE00F07310 /* JTStyledButton.m */,
-				D966EA3015F5F3DE00F07310 /* JTStyledCell.h */,
-				D966EA3115F5F3DE00F07310 /* JTStyledCell.m */,
-				D966EA3215F5F3DE00F07310 /* JTStyledDefines.h */,
-				D966EA3315F5F3DE00F07310 /* JTStyledEditableCell.h */,
-				D966EA3415F5F3DE00F07310 /* JTStyledEditableCell.m */,
-				D966EA3515F5F3DE00F07310 /* JTStyledElements-Prefix.pch */,
-				D966EA3615F5F3DE00F07310 /* JTStyledElements.h */,
-				D966EA3715F5F3DE00F07310 /* JTStyledPageControl.h */,
-				D966EA3815F5F3DE00F07310 /* JTStyledPageControl.m */,
-				D966EA3915F5F3DE00F07310 /* JTStyledTextField.h */,
-				D966EA3A15F5F3DE00F07310 /* JTStyledTextField.m */,
-				D966EA3B15F5F3DE00F07310 /* JTStyledTextView.h */,
-				D966EA3C15F5F3DE00F07310 /* JTStyledTextView.m */,
-				D966EA3D15F5F3DE00F07310 /* JTStyledTimeLineView.h */,
-				D966EA3E15F5F3DE00F07310 /* JTStyledTimeLineView.m */,
-				D966EA3F15F5F3DE00F07310 /* JTStyledView.h */,
-				D966EA4015F5F3DE00F07310 /* JTStyledView.m */,
+				CE1E3785160F686600098C98 /* Localizable.strings */,
+				CE1E3778160F669E00098C98 /* JTStyledElementsBundle.bundle */,
+				CE1E362C160F38A400098C98 /* Supporting Files */,
 			);
-			path = Source;
+			path = JTStyledElementsBundle;
 			sourceTree = "<group>";
 		};
-		D966EA1315F5F3DE00F07310 /* Categories */ = {
+		CE1E362C160F38A400098C98 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D966EA1415F5F3DE00F07310 /* AdvancedGraphics.h */,
-				D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */,
-				D966EA1615F5F3DE00F07310 /* JTStyledButton+JTButton.h */,
-				D966EA1715F5F3DE00F07310 /* JTStyledButton+JTButton.m */,
-				D966EA1815F5F3DE00F07310 /* UIButton+JTButton.h */,
-				D966EA1915F5F3DE00F07310 /* UIButton+JTButton.m */,
-				D966EA1A15F5F3DE00F07310 /* UIColor+AdvancedColors.h */,
-				D966EA1B15F5F3DE00F07310 /* UIColor+AdvancedColors.m */,
-				D966EA1C15F5F3DE00F07310 /* UIImage+AdvancedProcessing.h */,
-				D966EA1D15F5F3DE00F07310 /* UIImage+AdvancedProcessing.m */,
-				D966EA1E15F5F3DE00F07310 /* UIImage+JTImages.h */,
-				D966EA1F15F5F3DE00F07310 /* UIImage+JTImages.m */,
+				CE1E362D160F38A400098C98 /* JTStyledElementsBundle-Info.plist */,
 			);
-			path = Categories;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		D98B52EB15F4D64D00A7FCB7 = {
 			isa = PBXGroup;
 			children = (
 				D98B52FB15F4D64D00A7FCB7 /* JTStyledElements */,
-				D98B535B15F4DB1800A7FCB7 /* JTStyledElementsDemo */,
+				CE1E362B160F38A400098C98 /* JTStyledElementsBundle */,
 				D98B52F815F4D64D00A7FCB7 /* Frameworks */,
 				D98B52F715F4D64D00A7FCB7 /* Products */,
 			);
@@ -330,7 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */,
-				D98B535515F4DB1800A7FCB7 /* JTStyledElementsDemo.app */,
+				CE1E3624160F38A400098C98 /* JTStyledElementsBundle.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -342,6 +200,7 @@
 				D98B534D15F4D92D00A7FCB7 /* UIKit.framework */,
 				D98B52F915F4D64D00A7FCB7 /* Foundation.framework */,
 				D98B535915F4DB1800A7FCB7 /* CoreGraphics.framework */,
+				CE1E3627160F38A400098C98 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -350,18 +209,8 @@
 			isa = PBXGroup;
 			children = (
 				D98B530A15F4D7AB00A7FCB7 /* Source */,
-				D98B530715F4D7AB00A7FCB7 /* Resources */,
 			);
 			path = JTStyledElements;
-			sourceTree = "<group>";
-		};
-		D98B530715F4D7AB00A7FCB7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D98B530815F4D7AB00A7FCB7 /* addPhoto.png */,
-				D98B530915F4D7AB00A7FCB7 /* Photo.png */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 		D98B530A15F4D7AB00A7FCB7 /* Source */ = {
@@ -426,39 +275,26 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
-		D98B535B15F4DB1800A7FCB7 /* JTStyledElementsDemo */ = {
-			isa = PBXGroup;
-			children = (
-				D966EA0E15F5F3DE00F07310 /* JTStyledElements */,
-				D98B536415F4DB1800A7FCB7 /* JTAppDelegate.h */,
-				D98B536515F4DB1800A7FCB7 /* JTAppDelegate.m */,
-				D98B537815F4DCC300A7FCB7 /* JTViewController.h */,
-				D98B537915F4DCC300A7FCB7 /* JTViewController.m */,
-				D98B541315F4E17200A7FCB7 /* JTStyledPageControlViewController.h */,
-				D98B541415F4E17200A7FCB7 /* JTStyledPageControlViewController.m */,
-				D966EA5815F5F44B00F07310 /* JTStyledButtonViewController.h */,
-				D966EA5915F5F44B00F07310 /* JTStyledButtonViewController.m */,
-				D966EA5B15F5FA8500F07310 /* JTStyledTextViewViewController.h */,
-				D966EA5C15F5FA8500F07310 /* JTStyledTextViewViewController.m */,
-				D98B535C15F4DB1800A7FCB7 /* Supporting Files */,
-			);
-			path = JTStyledElementsDemo;
-			sourceTree = "<group>";
-		};
-		D98B535C15F4DB1800A7FCB7 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D98B535D15F4DB1800A7FCB7 /* JTStyledElementsDemo-Info.plist */,
-				D98B535E15F4DB1800A7FCB7 /* InfoPlist.strings */,
-				D98B536115F4DB1800A7FCB7 /* main.m */,
-				D98B536315F4DB1800A7FCB7 /* JTStyledElementsDemo-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		CE1E3623160F38A400098C98 /* JTStyledElementsBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE1E3634160F38A400098C98 /* Build configuration list for PBXNativeTarget "JTStyledElementsBundle" */;
+			buildPhases = (
+				CE1E3620160F38A400098C98 /* Sources */,
+				CE1E3621160F38A400098C98 /* Frameworks */,
+				CE1E3622160F38A400098C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTStyledElementsBundle;
+			productName = JTStyledElementsBundle;
+			productReference = CE1E3624160F38A400098C98 /* JTStyledElementsBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		D98B52F515F4D64D00A7FCB7 /* JTStyledElements */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D98B530415F4D64E00A7FCB7 /* Build configuration list for PBXNativeTarget "JTStyledElements" */;
@@ -470,29 +306,12 @@
 			buildRules = (
 			);
 			dependencies = (
+				CE1E374B160F5A0B00098C98 /* PBXTargetDependency */,
 			);
 			name = JTStyledElements;
 			productName = JTStyledElements;
 			productReference = D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */;
 			productType = "com.apple.product-type.library.static";
-		};
-		D98B535415F4DB1800A7FCB7 /* JTStyledElementsDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D98B537015F4DB1800A7FCB7 /* Build configuration list for PBXNativeTarget "JTStyledElementsDemo" */;
-			buildPhases = (
-				D98B535115F4DB1800A7FCB7 /* Sources */,
-				D98B535215F4DB1800A7FCB7 /* Frameworks */,
-				D98B535315F4DB1800A7FCB7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D98B53C615F4DE7D00A7FCB7 /* PBXTargetDependency */,
-			);
-			name = JTStyledElementsDemo;
-			productName = JTStyledElementsDemo;
-			productReference = D98B535515F4DB1800A7FCB7 /* JTStyledElementsDemo.app */;
-			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -509,6 +328,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = D98B52EB15F4D64D00A7FCB7;
 			productRefGroup = D98B52F715F4D64D00A7FCB7 /* Products */;
@@ -516,25 +336,31 @@
 			projectRoot = "";
 			targets = (
 				D98B52F515F4D64D00A7FCB7 /* JTStyledElements */,
-				D98B535415F4DB1800A7FCB7 /* JTStyledElementsDemo */,
+				CE1E3623160F38A400098C98 /* JTStyledElementsBundle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D98B535315F4DB1800A7FCB7 /* Resources */ = {
+		CE1E3622160F38A400098C98 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D98B536015F4DB1800A7FCB7 /* InfoPlist.strings in Resources */,
-				D966EA4115F5F3DE00F07310 /* addPhoto.png in Resources */,
-				D966EA4215F5F3DE00F07310 /* Photo.png in Resources */,
+				CE1E3779160F669E00098C98 /* JTStyledElementsBundle.bundle in Resources */,
+				CE1E3783160F686600098C98 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		CE1E3620160F38A400098C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D98B52F215F4D64D00A7FCB7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -564,62 +390,80 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D98B535115F4DB1800A7FCB7 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D98B536215F4DB1800A7FCB7 /* main.m in Sources */,
-				D98B536615F4DB1800A7FCB7 /* JTAppDelegate.m in Sources */,
-				D98B537A15F4DCC300A7FCB7 /* JTViewController.m in Sources */,
-				D98B541515F4E17200A7FCB7 /* JTStyledPageControlViewController.m in Sources */,
-				D966EA4315F5F3DE00F07310 /* AdvancedGraphics.m in Sources */,
-				D966EA4415F5F3DE00F07310 /* JTStyledButton+JTButton.m in Sources */,
-				D966EA4515F5F3DE00F07310 /* UIButton+JTButton.m in Sources */,
-				D966EA4615F5F3DE00F07310 /* UIColor+AdvancedColors.m in Sources */,
-				D966EA4715F5F3DE00F07310 /* UIImage+AdvancedProcessing.m in Sources */,
-				D966EA4815F5F3DE00F07310 /* UIImage+JTImages.m in Sources */,
-				D966EA4915F5F3DE00F07310 /* JTAnimatedView.m in Sources */,
-				D966EA4A15F5F3DE00F07310 /* JTBarButton.m in Sources */,
-				D966EA4B15F5F3DE00F07310 /* JTBarView.m in Sources */,
-				D966EA4C15F5F3DE00F07310 /* JTHelpImageView.m in Sources */,
-				D966EA4D15F5F3DE00F07310 /* JTPagedView.m in Sources */,
-				D966EA4E15F5F3DE00F07310 /* JTRoundRectButton.m in Sources */,
-				D966EA4F15F5F3DE00F07310 /* JTStyledArrowView.m in Sources */,
-				D966EA5015F5F3DE00F07310 /* JTStyledButton.m in Sources */,
-				D966EA5115F5F3DE00F07310 /* JTStyledCell.m in Sources */,
-				D966EA5215F5F3DE00F07310 /* JTStyledEditableCell.m in Sources */,
-				D966EA5315F5F3DE00F07310 /* JTStyledPageControl.m in Sources */,
-				D966EA5415F5F3DE00F07310 /* JTStyledTextField.m in Sources */,
-				D966EA5515F5F3DE00F07310 /* JTStyledTextView.m in Sources */,
-				D966EA5615F5F3DE00F07310 /* JTStyledTimeLineView.m in Sources */,
-				D966EA5715F5F3DE00F07310 /* JTStyledView.m in Sources */,
-				D966EA5A15F5F44B00F07310 /* JTStyledButtonViewController.m in Sources */,
-				D966EA5D15F5FA8600F07310 /* JTStyledTextViewViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D98B53C615F4DE7D00A7FCB7 /* PBXTargetDependency */ = {
+		CE1E374B160F5A0B00098C98 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D98B52F515F4D64D00A7FCB7 /* JTStyledElements */;
-			targetProxy = D98B53C515F4DE7D00A7FCB7 /* PBXContainerItemProxy */;
+			target = CE1E3623160F38A400098C98 /* JTStyledElementsBundle */;
+			targetProxy = CE1E374A160F5A0B00098C98 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D98B535E15F4DB1800A7FCB7 /* InfoPlist.strings */ = {
+		CE1E3785160F686600098C98 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D98B535F15F4DB1800A7FCB7 /* en */,
+				CE1E3784160F686600098C98 /* en */,
+				CE1E3786160F686A00098C98 /* ru */,
 			);
-			name = InfoPlist.strings;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		CE1E3632160F38A400098C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "JTStyledElementsBundle/JTStyledElementsBundle-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		CE1E3633160F38A400098C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "JTStyledElementsBundle/JTStyledElementsBundle-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		D98B530215F4D64E00A7FCB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -672,7 +516,10 @@
 				DSTROOT = /tmp/JTStyledElements.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTStyledElements/Source/JTStyledElements-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -684,42 +531,27 @@
 				DSTROOT = /tmp/JTStyledElements.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTStyledElements/Source/JTStyledElements-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		D98B537115F4DB1800A7FCB7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JTStyledElementsDemo/JTStyledElementsDemo-Prefix.pch";
-				INFOPLIST_FILE = "JTStyledElementsDemo/JTStyledElementsDemo-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		D98B537215F4DB1800A7FCB7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "JTStyledElementsDemo/JTStyledElementsDemo-Prefix.pch";
-				INFOPLIST_FILE = "JTStyledElementsDemo/JTStyledElementsDemo-Info.plist";
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		CE1E3634160F38A400098C98 /* Build configuration list for PBXNativeTarget "JTStyledElementsBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE1E3632160F38A400098C98 /* Debug */,
+				CE1E3633160F38A400098C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D98B52F015F4D64D00A7FCB7 /* Build configuration list for PBXProject "JTStyledElements" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -734,15 +566,6 @@
 			buildConfigurations = (
 				D98B530515F4D64E00A7FCB7 /* Debug */,
 				D98B530615F4D64E00A7FCB7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D98B537015F4DB1800A7FCB7 /* Build configuration list for PBXNativeTarget "JTStyledElementsDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D98B537115F4DB1800A7FCB7 /* Debug */,
-				D98B537215F4DB1800A7FCB7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

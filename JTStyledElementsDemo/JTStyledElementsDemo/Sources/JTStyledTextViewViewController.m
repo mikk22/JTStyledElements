@@ -61,7 +61,10 @@
     self.textView.layer.cornerRadius = 0.0f;
     self.textView.layer.masksToBounds = YES;
     self.textView.font=[UIFont fontWithName:@"Helvetica-Oblique" size:12.f];
-    self.textView.placeholder=NSLocalizedString(@"[Enter text]", nil);
+    
+    NSString *resourceBundlePath = [[NSBundle mainBundle] pathForResource:@"JTStyledElementsBundle" ofType:@"bundle"];
+    NSBundle *resourceBundle = [NSBundle bundleWithPath:resourceBundlePath];
+    self.textView.placeholder=NSLocalizedStringFromTableInBundle(@"[Enter text]", nil, resourceBundle, nil);
     [self.textView setReturnKeyType:UIReturnKeyDone];
     
     [self.view addSubview:self.textView];

@@ -16,6 +16,7 @@ enum
     kJTStyledPageControlCell,
     kJTStyledButtonCell,
     kJTStyledTextViewCell,
+    kJTStyledImages,
     kJTStyledElementsCount
 };
 
@@ -23,6 +24,7 @@ enum
 #define JTSTYLED_ELEMENTS_ARRAY     [NSArray arrayWithObjects:@"JTStyledPageControl",\
                                                               @"JTStyledButton",\
                                                               @"JTStyledTextView",\
+                                                              @"JTStyledImages",\
                                     nil]
 
 

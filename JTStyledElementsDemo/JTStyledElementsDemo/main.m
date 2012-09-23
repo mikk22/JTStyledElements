@@ -2,8 +2,8 @@
 //  main.m
 //  JTStyledElementsDemo
 //
-//  Created by Mihail Koltsov on 9/3/12.
-//  Copyright (c) 2012 Mihail Koltsov. All rights reserved.
+//  Created by user on 23.09.12.
+//  Copyright (c) 2012 user. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
