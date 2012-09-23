@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEAC384A160EFAE6002E4E01 /* JTStyledBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC3849160EFAE6002E4E01 /* JTStyledBarView.m */; };
 		D966EA4115F5F3DE00F07310 /* addPhoto.png in Resources */ = {isa = PBXBuildFile; fileRef = D966EA1015F5F3DE00F07310 /* addPhoto.png */; };
 		D966EA4215F5F3DE00F07310 /* Photo.png in Resources */ = {isa = PBXBuildFile; fileRef = D966EA1115F5F3DE00F07310 /* Photo.png */; };
 		D966EA4315F5F3DE00F07310 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D966EA1515F5F3DE00F07310 /* AdvancedGraphics.m */; };
@@ -92,6 +93,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CEAC3848160EFAE6002E4E01 /* JTStyledBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledBarView.h; sourceTree = "<group>"; };
+		CEAC3849160EFAE6002E4E01 /* JTStyledBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledBarView.m; sourceTree = "<group>"; };
 		D966EA0D15F5EEBA00F07310 /* JTStyledElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTStyledElements.h; sourceTree = "<group>"; };
 		D966EA1015F5F3DE00F07310 /* addPhoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addPhoto.png; sourceTree = "<group>"; };
 		D966EA1115F5F3DE00F07310 /* Photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Photo.png; sourceTree = "<group>"; };
@@ -373,6 +376,8 @@
 				D98B531F15F4D7AB00A7FCB7 /* JTBarView.m */,
 				D98B533315F4D7AB00A7FCB7 /* JTPagedView.h */,
 				D98B533415F4D7AB00A7FCB7 /* JTPagedView.m */,
+				CEAC3848160EFAE6002E4E01 /* JTStyledBarView.h */,
+				CEAC3849160EFAE6002E4E01 /* JTStyledBarView.m */,
 				D98B533515F4D7AB00A7FCB7 /* JTRoundRectButton.h */,
 				D98B533615F4D7AB00A7FCB7 /* JTRoundRectButton.m */,
 				D98B531815F4D7AB00A7FCB7 /* JTStyledPageControl.h */,
@@ -555,6 +560,7 @@
 				D98B534A15F4D7AB00A7FCB7 /* JTStyledView.m in Sources */,
 				D98B534B15F4D7AB00A7FCB7 /* JTPagedView.m in Sources */,
 				D98B534C15F4D7AC00A7FCB7 /* JTRoundRectButton.m in Sources */,
+				CEAC384A160EFAE6002E4E01 /* JTStyledBarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
