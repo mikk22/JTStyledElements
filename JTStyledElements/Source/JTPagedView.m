@@ -81,13 +81,15 @@
 -(void)setCurrentPage:(NSInteger)currentPage animated:(BOOL)animated
 {
     _currentPage=currentPage;
-    
+
     if (_currentPage>(_pagesCount-1))
         _currentPage=0;
     
     if (_currentPage<0)
         _currentPage=0;
     
+    NSLog(@"SELF_FRAME %@",NSStringFromCGRect(self.frame));
+    NSLog(@"PAGE %d TARGET FRAME %@",self.currentPage,NSStringFromCGRect(CGRectMake(self.currentPage*CGRectGetWidth(self.frame), 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame))));
     [self scrollRectToVisible:CGRectMake(self.currentPage*CGRectGetWidth(self.frame), 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame)) animated:animated];
 }
 
@@ -192,6 +194,7 @@
         
         
         _pagesCount=NSNotFound;
+    
     }
     
     return self;
@@ -204,6 +207,7 @@
     
     if (_pagesCount==NSNotFound)
     {
+        NSLog(@"CURRENT PAGE %d",_currentPage);
         //initialization
         _pagesCount=[self.dataSource numberOfViewsInPagedView:self];
         NSInteger pagesCount=self.continuousScroll ? _pagesCount+1 : _pagesCount;
@@ -214,15 +218,26 @@
 			[self.views addObject:[NSNull null]];
 		}
         
-        self.contentOffset = CGPointZero;        
-    }
+        self.contentOffset = CGPointZero;
         
-    NSInteger pagesCount=self.continuousScroll ? _pagesCount+1 : _pagesCount;
-    self.contentSize = CGSizeMake(self.bounds.size.width * pagesCount, self.bounds.size.height);
-    //for continuos
-    [self correctContentOffset];
-    
-    [self _loadViews];    
+
+        self.contentSize = CGSizeMake(self.bounds.size.width * pagesCount, self.bounds.size.height);
+        [self _loadViews];
+        
+        //first time 
+        [self scrollRectToVisible:CGRectMake(self.currentPage*CGRectGetWidth(self.frame), 0, CGRectGetWidth(self.frame), CGRectGetHeight(self.frame)) animated:NO];
+        if ([_pagedViewDelegate respondsToSelector:@selector(pagedView:pageIndex:)])
+            [_pagedViewDelegate pagedView:self pageIndex:self.currentPage];
+        if ([_pagedViewDelegate respondsToSelector:@selector(pagedView:didMoveToPageIndex:)])
+            [_pagedViewDelegate pagedView:self didMoveToPageIndex:self.currentPage];
+    } else
+    {
+        NSInteger pagesCount=self.continuousScroll ? _pagesCount+1 : _pagesCount;
+        self.contentSize = CGSizeMake(self.bounds.size.width * pagesCount, self.bounds.size.height);
+        //for continuos
+        [self correctContentOffset];
+        [self _loadViews];
+    }
 }
 
 

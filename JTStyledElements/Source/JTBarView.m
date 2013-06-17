@@ -110,48 +110,50 @@
 {
     [super layoutSubviews];
     
-    if (!_initialized)
+    if (self.barDataSource && [self.barDataSource respondsToSelector:@selector(numberOfSectionsInBarView:)] && [self.barDataSource respondsToSelector:@selector(numberOfItemsInBarView:forSection:)])
     {
-        _buttonsCount=0;
-        NSUInteger _sections=[self.barDataSource numberOfSectionsInBarView:self];
-        for (NSUInteger index=0; index<_sections; ++index)
+        if (!_initialized)
         {
-            _buttonsCount=_buttonsCount+[self.barDataSource numberOfItemsInBarView:self forSection:index];
+            _buttonsCount=0;
+            NSUInteger _sections=[self.barDataSource numberOfSectionsInBarView:self];
+            for (NSUInteger index=0; index<_sections; ++index)
+            {
+                _buttonsCount=_buttonsCount+[self.barDataSource numberOfItemsInBarView:self forSection:index];
+            }
+            
+            [self reloadData];
+            _initialized=YES;
         }
         
-        [self reloadData];
-        _initialized=YES;
-    }
-
-    switch (self.barStyle) 
-    {
-        case JTButtonsBarVerticalStyle:
+        switch (self.barStyle)
         {
-            CGFloat buttonWidth=CGRectGetWidth(self.frame)-2*self.horizontalOffset;
-            CGSize buttonSize=!CGSizeEqualToSize(self.barButtonSize, CGSizeZero) ? self.barButtonSize :
-                                                            CGSizeMake(buttonWidth,buttonWidth);
-            
-            [self _setButtonsSize:buttonSize];
-            
-            CGFloat contentHeight=_buttonsCount*(buttonWidth+self.verticalOffset)+self.verticalOffset;
-            [self setContentSize:CGSizeMake(CGRectGetWidth(self.frame), contentHeight)];
-
-            break;
-        }    
-        default:
-        case JTButtonsBarHorizontalStyle:
-        {
-            CGFloat buttonWidth=CGRectGetHeight(self.frame)-2*self.verticalOffset;
-            CGSize buttonSize=!CGSizeEqualToSize(self.barButtonSize, CGSizeZero) ? self.barButtonSize :
-            CGSizeMake(buttonWidth,buttonWidth);
-            [self _setButtonsSize:buttonSize];//CGSizeMake(buttonWidth, buttonWidth)];
-            CGFloat contentWidth=_buttonsCount*(buttonWidth+self.horizontalOffset)+self.horizontalOffset;
-            [self setContentSize:CGSizeMake(contentWidth, CGRectGetHeight(self.frame))];
-            
-            break;
-        }    
+            case JTButtonsBarVerticalStyle:
+            {
+                CGFloat buttonWidth=CGRectGetWidth(self.frame)-2*self.horizontalOffset;
+                CGSize buttonSize=!CGSizeEqualToSize(self.barButtonSize, CGSizeZero) ? self.barButtonSize :
+                CGSizeMake(buttonWidth,buttonWidth);
+                
+                [self _setButtonsSize:buttonSize];
+                
+                CGFloat contentHeight=_buttonsCount*(buttonWidth+self.verticalOffset)+self.verticalOffset;
+                [self setContentSize:CGSizeMake(CGRectGetWidth(self.frame), contentHeight)];
+                
+                break;
+            }
+            default:
+            case JTButtonsBarHorizontalStyle:
+            {
+                CGFloat buttonWidth=CGRectGetHeight(self.frame)-2*self.verticalOffset;
+                CGSize buttonSize=!CGSizeEqualToSize(self.barButtonSize, CGSizeZero) ? self.barButtonSize :
+                CGSizeMake(buttonWidth,buttonWidth);
+                [self _setButtonsSize:buttonSize];//CGSizeMake(buttonWidth, buttonWidth)];
+                CGFloat contentWidth=_buttonsCount*(buttonWidth+self.horizontalOffset)+self.horizontalOffset;
+                [self setContentSize:CGSizeMake(contentWidth, CGRectGetHeight(self.frame))];
+                
+                break;
+            }    
+        }
     }
-    
 }
 
 
@@ -362,30 +364,34 @@ if (!_selectedIndexes)
 {
     //clearing all data
     NSMutableDictionary *buttons=[NSMutableDictionary dictionaryWithCapacity:_buttonsCount];
-    //loading buttons from dataSource
-    NSUInteger sections=[self.barDataSource numberOfSectionsInBarView:self];
-    
-    for (NSUInteger sectionIndex=0; sectionIndex<sections; ++sectionIndex)
+
+    if (self.barDataSource && [self.barDataSource respondsToSelector:@selector(numberOfSectionsInBarView:)] && [self.barDataSource respondsToSelector:@selector(numberOfItemsInBarView:forSection:)])
     {
-        NSUInteger buttonsCountForSection=[self.barDataSource numberOfItemsInBarView:self forSection:sectionIndex];
-        NSMutableArray *buttonsForSection=[NSMutableArray arrayWithCapacity:buttonsCountForSection];
-        for (NSUInteger buttonIndex=0; buttonIndex<buttonsCountForSection; ++buttonIndex)
+        //loading buttons from dataSource
+        NSUInteger sections=[self.barDataSource numberOfSectionsInBarView:self];
+        
+        for (NSUInteger sectionIndex=0; sectionIndex<sections; ++sectionIndex)
         {
-            UIView *itemView=[self.barDataSource barView:self itemForIndexPath:[NSIndexPath indexPathForRow:buttonIndex inSection:sectionIndex]];
-            
-            if ([itemView isKindOfClass:[UIControl class]])
+            NSUInteger buttonsCountForSection=[self.barDataSource numberOfItemsInBarView:self forSection:sectionIndex];
+            NSMutableArray *buttonsForSection=[NSMutableArray arrayWithCapacity:buttonsCountForSection];
+            for (NSUInteger buttonIndex=0; buttonIndex<buttonsCountForSection; ++buttonIndex)
             {
-                UIControl *itemControl=(UIControl*)itemView;
-                [itemControl addTarget:self action:@selector(_barButtonTouch:) forControlEvents:UIControlEventTouchUpInside];
+                UIView *itemView=[self.barDataSource barView:self itemForIndexPath:[NSIndexPath indexPathForRow:buttonIndex inSection:sectionIndex]];
+                
+                if ([itemView isKindOfClass:[UIControl class]])
+                {
+                    UIControl *itemControl=(UIControl*)itemView;
+                    [itemControl addTarget:self action:@selector(_barButtonTouch:) forControlEvents:UIControlEventTouchUpInside];
+                }
+                
+                [buttonsForSection addObject:itemView];
+                [self addSubview:itemView];
             }
             
-            [buttonsForSection addObject:itemView];
-            [self addSubview:itemView];
+            [buttons setObject:[NSArray arrayWithArray:buttonsForSection] forKey:[NSString stringWithFormat:@"%d",sectionIndex]];
         }
-        
-        [buttons setObject:[NSArray arrayWithArray:buttonsForSection] forKey:[NSString stringWithFormat:@"%d",sectionIndex]];
     }
-    
+
     self.barButtons=[NSDictionary dictionaryWithDictionary:buttons];
 }
 
@@ -433,8 +439,12 @@ if (!_selectedIndexes)
             [self setContentSize:CGSizeMake(contentWidth, CGRectGetHeight(self.frame))];
 
             if (self.centerContent &&  (contentWidth<CGRectGetWidth(self.frame)))
+            {
                 self.contentOffset=CGPointMake(-( (CGRectGetWidth(self.frame)-contentWidth)/2 ),0);
-            else 
+            
+            //NSLog(@"POINT %@",NSStringFromCGPoint(self.contentOffset));
+            }
+                else
                 self.contentOffset=CGPointMake(0, 0);
             
             break;

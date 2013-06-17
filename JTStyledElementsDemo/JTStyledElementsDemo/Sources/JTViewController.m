@@ -17,6 +17,7 @@ enum
     kJTStyledButtonCell,
     kJTStyledTextViewCell,
     kJTStyledImages,
+    kJTStyledBarView,
     kJTStyledElementsCount
 };
 
@@ -25,6 +26,7 @@ enum
                                                               @"JTStyledButton",\
                                                               @"JTStyledTextView",\
                                                               @"JTStyledImages",\
+                                                              @"JTStyledBarView",\
                                     nil]
 
 

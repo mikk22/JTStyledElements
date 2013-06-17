@@ -23,6 +23,7 @@
 		CE1E3711160F513F00098C98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1E3710160F513F00098C98 /* QuartzCore.framework */; };
 		CE1E3712160F519A00098C98 /* libJTStyledElements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1E3709160F50E900098C98 /* libJTStyledElements.a */; };
 		CE1E3715160F520900098C98 /* JTStyledImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1E3714160F520900098C98 /* JTStyledImagesViewController.m */; };
+		CE1F0A0F163A329B00DBCED4 /* JTStyledBarViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1F0A0E163A329B00DBCED4 /* JTStyledBarViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		CE1E3710160F513F00098C98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		CE1E3713160F520900098C98 /* JTStyledImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledImagesViewController.h; sourceTree = "<group>"; };
 		CE1E3714160F520900098C98 /* JTStyledImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledImagesViewController.m; sourceTree = "<group>"; };
+		CE1F0A0D163A329B00DBCED4 /* JTStyledBarViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledBarViewViewController.h; sourceTree = "<group>"; };
+		CE1F0A0E163A329B00DBCED4 /* JTStyledBarViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledBarViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +170,8 @@
 				CE1E3714160F520900098C98 /* JTStyledImagesViewController.m */,
 				CE1E36F4160F50A500098C98 /* JTViewController.h */,
 				CE1E36F5160F50A500098C98 /* JTViewController.m */,
+				CE1F0A0D163A329B00DBCED4 /* JTStyledBarViewViewController.h */,
+				CE1F0A0E163A329B00DBCED4 /* JTStyledBarViewViewController.m */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -278,6 +283,7 @@
 				CE1E36FA160F50A500098C98 /* JTViewController.m in Sources */,
 				CE1E36FD160F50C700098C98 /* JTAppDelegate.m in Sources */,
 				CE1E3715160F520900098C98 /* JTStyledImagesViewController.m in Sources */,
+				CE1F0A0F163A329B00DBCED4 /* JTStyledBarViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,7 +370,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTStyledElementsDemo/JTStyledElementsDemo-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../JTStyledElements/Source\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../JTStyledElements\"/**";
 				INFOPLIST_FILE = "JTStyledElementsDemo/JTStyledElementsDemo-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",
@@ -380,7 +386,7 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JTStyledElementsDemo/JTStyledElementsDemo-Prefix.pch";
-				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../JTStyledElements/Source\"/**";
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../JTStyledElements\"/**";
 				INFOPLIST_FILE = "JTStyledElementsDemo/JTStyledElementsDemo-Info.plist";
 				OTHER_LDFLAGS = (
 					"-all_load",

@@ -1,0 +1,3 @@
+[submodule "JTStyledElements/Submodules/GMGridView"]
+	path = JTStyledElements/Submodules/GMGridView
+	url = git://github.com/gmoledina/GMGridView.git

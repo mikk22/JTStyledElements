@@ -14,14 +14,14 @@
 #import "JTStyledTextView.h"
 #import "JTStyledTimeLineView.h"
 #import "JTStyledView.h"
-#import "JTStyledArrowView.h"
+#import "JTPopupView.h"
 #import "JTStyledButton.h"
 
 #import "JTBarView.h"
 #import "JTBarButton.h"
 #import "JTAnimatedView.h"
 #import "JTPagedView.h"
-#import "JTStyledBarView.h"
+#import "JTPopupGridView.h"
 #import "JTRoundRectButton.h"
 
 #import "JTStyledButton+JTButton.h"

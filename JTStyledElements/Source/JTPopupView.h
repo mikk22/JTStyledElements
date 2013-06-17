@@ -1,5 +1,5 @@
 //
-//  JTMetroArrowView.h
+//  JTPopupView.h
 //  Jeetrium
 //
 //  Created by user on 02.06.12.
@@ -13,7 +13,7 @@
 #define METRO_ARROWVIEW_ARROW_WIDTH         7.f
 #define METRO_ARROWVIEW_ARROW_HEIGHT        8.f
 
-#define METRO_ARROWVIEW_SHADOW_OFFSET       5.f
+#define METRO_ARROWVIEW_SHADOW_OFFSET       2.f
 
 
 typedef enum
@@ -22,18 +22,27 @@ typedef enum
     JTStyledArrowViewArrowLeft
 } JTStyledArrowViewArrowPosition;
 
-@interface JTStyledArrowView : UIView
+@interface JTPopupView : UIView
 {
     UIColor                             *_fillColor;
     NSArray                             *_metroStyleColors;
     JTStyledArrowViewArrowPosition      _arrowStyle;
+
+    //layers
+    CAShapeLayer                        *_arrowLayer;
+    CAShapeLayer                        *_gradientShapeLayer;
+    CAGradientLayer                     *_gradientLayer;
+    
+    UIView                              *_contentView;
 }
 
 @property (nonatomic, strong)   UIColor                             *fillColor;
 @property (nonatomic, strong)   NSArray                             *metroStyleColors;
 @property (nonatomic)           JTStyledArrowViewArrowPosition      arrowStyle;
 
-
-//+ (void)roundedLayer:(CALayer *)viewLayer;
+//layers
+@property (nonatomic, strong)   CAShapeLayer                        *arrowLayer;
+@property (nonatomic, strong)   CAShapeLayer                        *gradientShapeLayer;
+@property (nonatomic, strong)   CAGradientLayer                     *gradientLayer;
 
 @end

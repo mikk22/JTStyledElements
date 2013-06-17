@@ -59,14 +59,14 @@
     {
         UIImage *photoCameraImage=[UIImage imageNamed:imageName];
 
-        NSString *resourceBundlePath = [[NSBundle mainBundle] pathForResource:@"JTStyledElementsBundle" ofType:@"bundle"];
-        NSBundle *resourceBundle = [NSBundle bundleWithPath:resourceBundlePath];
+        //NSString *resourceBundlePath = [[NSBundle mainBundle] pathForResource:@"JTStyledElementsBundle" ofType:@"bundle"];
+        //NSBundle *resourceBundle = [NSBundle bundleWithPath:resourceBundlePath];
         
-        NSLog(@"resourceBundlePath %@",resourceBundlePath);
-        NSLog(@"resourceBundle %@",resourceBundle);
+        //NSLog(@"resourceBundlePath %@",resourceBundlePath);
+        //NSLog(@"resourceBundle %@",resourceBundle);
         
-        NSLog(@"PATH %@",imageName);
-        NSLog(@"IMAGE %@",photoCameraImage);
+        //NSLog(@"PATH %@",imageName);
+        //NSLog(@"IMAGE %@",photoCameraImage);
         
         CGRect rect = CGRectMake(0.25f*size.width, 0.325f*size.height, 0.5f*size.width, 0.35f*size.height);
         
