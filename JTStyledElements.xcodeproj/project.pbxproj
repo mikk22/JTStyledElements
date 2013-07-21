@@ -10,8 +10,6 @@
 		CE1E3779160F669E00098C98 /* JTStyledElementsBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CE1E3778160F669E00098C98 /* JTStyledElementsBundle.bundle */; };
 		CE1E3783160F686600098C98 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE1E3785160F686600098C98 /* Localizable.strings */; };
 		CE1E3787160F689D00098C98 /* libJTStyledElements.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */; };
-		CE7D4E4C1662D0AC00FFBE9B /* libGMGridView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7D4E491662D09C00FFBE9B /* libGMGridView.a */; };
-		CEAC384A160EFAE6002E4E01 /* JTPopupGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = CEAC3849160EFAE6002E4E01 /* JTPopupGridView.m */; };
 		D98B52FA15F4D64D00A7FCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D98B52F915F4D64D00A7FCB7 /* Foundation.framework */; };
 		D98B533815F4D7AB00A7FCB7 /* AdvancedGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530D15F4D7AB00A7FCB7 /* AdvancedGraphics.m */; };
 		D98B533915F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B530F15F4D7AB00A7FCB7 /* JTStyledButton+JTButton.m */; };
@@ -20,10 +18,8 @@
 		D98B533C15F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531515F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m */; };
 		D98B533D15F4D7AB00A7FCB7 /* UIImage+JTImages.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531715F4D7AB00A7FCB7 /* UIImage+JTImages.m */; };
 		D98B533E15F4D7AB00A7FCB7 /* JTStyledPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531915F4D7AB00A7FCB7 /* JTStyledPageControl.m */; };
-		D98B533F15F4D7AB00A7FCB7 /* JTAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531B15F4D7AB00A7FCB7 /* JTAnimatedView.m */; };
 		D98B534015F4D7AB00A7FCB7 /* JTBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531D15F4D7AB00A7FCB7 /* JTBarButton.m */; };
 		D98B534115F4D7AB00A7FCB7 /* JTBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B531F15F4D7AB00A7FCB7 /* JTBarView.m */; };
-		D98B534215F4D7AB00A7FCB7 /* JTHelpImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B532115F4D7AB00A7FCB7 /* JTHelpImageView.m */; };
 		D98B534315F4D7AB00A7FCB7 /* JTPopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B532315F4D7AB00A7FCB7 /* JTPopupView.m */; };
 		D98B534415F4D7AB00A7FCB7 /* JTStyledButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B532515F4D7AB00A7FCB7 /* JTStyledButton.m */; };
 		D98B534515F4D7AB00A7FCB7 /* JTStyledCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D98B532715F4D7AB00A7FCB7 /* JTStyledCell.m */; };
@@ -47,20 +43,6 @@
 			remoteGlobalIDString = CE1E3623160F38A400098C98;
 			remoteInfo = JTStyledElementsBundle;
 		};
-		CE7D4E481662D09C00FFBE9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE7D4E411662D09C00FFBE9B /* GMGridView.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 78509312149FAC2E000787E4;
-			remoteInfo = GMGridView;
-		};
-		CE7D4E4A1662D0A700FFBE9B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = CE7D4E411662D09C00FFBE9B /* GMGridView.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 78509311149FAC2E000787E4;
-			remoteInfo = GMGridView;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -77,16 +59,10 @@
 
 /* Begin PBXFileReference section */
 		CE1E3624160F38A400098C98 /* JTStyledElementsBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTStyledElementsBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1E3628160F38A400098C98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		CE1E3629160F38A400098C98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		CE1E362A160F38A400098C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE1E362D160F38A400098C98 /* JTStyledElementsBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTStyledElementsBundle-Info.plist"; sourceTree = "<group>"; };
 		CE1E3778160F669E00098C98 /* JTStyledElementsBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JTStyledElementsBundle.bundle; sourceTree = "<group>"; };
 		CE1E3784160F686600098C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		CE1E3786160F686A00098C98 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
-		CE7D4E411662D09C00FFBE9B /* GMGridView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = GMGridView.xcodeproj; path = JTStyledElements/Submodules/GMGridView/GMGridView/GMGridView.xcodeproj; sourceTree = "<group>"; };
-		CEAC3848160EFAE6002E4E01 /* JTPopupGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPopupGridView.h; sourceTree = "<group>"; };
-		CEAC3849160EFAE6002E4E01 /* JTPopupGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPopupGridView.m; sourceTree = "<group>"; };
 		D966EA0D15F5EEBA00F07310 /* JTStyledElements.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTStyledElements.h; sourceTree = "<group>"; };
 		D98B52F615F4D64D00A7FCB7 /* libJTStyledElements.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTStyledElements.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D98B52F915F4D64D00A7FCB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -104,14 +80,10 @@
 		D98B531715F4D7AB00A7FCB7 /* UIImage+JTImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JTImages.m"; sourceTree = "<group>"; };
 		D98B531815F4D7AB00A7FCB7 /* JTStyledPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledPageControl.h; sourceTree = "<group>"; };
 		D98B531915F4D7AB00A7FCB7 /* JTStyledPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTStyledPageControl.m; sourceTree = "<group>"; };
-		D98B531A15F4D7AB00A7FCB7 /* JTAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTAnimatedView.h; sourceTree = "<group>"; };
-		D98B531B15F4D7AB00A7FCB7 /* JTAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTAnimatedView.m; sourceTree = "<group>"; };
 		D98B531C15F4D7AB00A7FCB7 /* JTBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarButton.h; sourceTree = "<group>"; };
 		D98B531D15F4D7AB00A7FCB7 /* JTBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarButton.m; sourceTree = "<group>"; };
 		D98B531E15F4D7AB00A7FCB7 /* JTBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTBarView.h; sourceTree = "<group>"; };
 		D98B531F15F4D7AB00A7FCB7 /* JTBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBarView.m; sourceTree = "<group>"; };
-		D98B532015F4D7AB00A7FCB7 /* JTHelpImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTHelpImageView.h; sourceTree = "<group>"; };
-		D98B532115F4D7AB00A7FCB7 /* JTHelpImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTHelpImageView.m; sourceTree = "<group>"; };
 		D98B532215F4D7AB00A7FCB7 /* JTPopupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTPopupView.h; sourceTree = "<group>"; };
 		D98B532315F4D7AB00A7FCB7 /* JTPopupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTPopupView.m; sourceTree = "<group>"; };
 		D98B532415F4D7AB00A7FCB7 /* JTStyledButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTStyledButton.h; sourceTree = "<group>"; };
@@ -152,7 +124,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE7D4E4C1662D0AC00FFBE9B /* libGMGridView.a in Frameworks */,
 				D98B541115F4E03500A7FCB7 /* CoreGraphics.framework in Frameworks */,
 				D98B535015F4D93600A7FCB7 /* QuartzCore.framework in Frameworks */,
 				D98B534E15F4D92D00A7FCB7 /* UIKit.framework in Frameworks */,
@@ -163,16 +134,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CE1E3627160F38A400098C98 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CE1E3628160F38A400098C98 /* AppKit.framework */,
-				CE1E3629160F38A400098C98 /* CoreData.framework */,
-				CE1E362A160F38A400098C98 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
 		CE1E362B160F38A400098C98 /* JTStyledElementsBundle */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,14 +150,6 @@
 				CE1E362D160F38A400098C98 /* JTStyledElementsBundle-Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		CE7D4E421662D09C00FFBE9B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CE7D4E491662D09C00FFBE9B /* libGMGridView.a */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D98B52EB15F4D64D00A7FCB7 = {
@@ -221,12 +174,10 @@
 		D98B52F815F4D64D00A7FCB7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE7D4E411662D09C00FFBE9B /* GMGridView.xcodeproj */,
 				D98B534F15F4D93600A7FCB7 /* QuartzCore.framework */,
 				D98B534D15F4D92D00A7FCB7 /* UIKit.framework */,
 				D98B52F915F4D64D00A7FCB7 /* Foundation.framework */,
 				D98B535915F4DB1800A7FCB7 /* CoreGraphics.framework */,
-				CE1E3627160F38A400098C98 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -243,16 +194,12 @@
 			isa = PBXGroup;
 			children = (
 				D98B530B15F4D7AB00A7FCB7 /* Categories */,
-				D98B531A15F4D7AB00A7FCB7 /* JTAnimatedView.h */,
-				D98B531B15F4D7AB00A7FCB7 /* JTAnimatedView.m */,
 				D98B531C15F4D7AB00A7FCB7 /* JTBarButton.h */,
 				D98B531D15F4D7AB00A7FCB7 /* JTBarButton.m */,
 				D98B531E15F4D7AB00A7FCB7 /* JTBarView.h */,
 				D98B531F15F4D7AB00A7FCB7 /* JTBarView.m */,
 				D98B533315F4D7AB00A7FCB7 /* JTPagedView.h */,
 				D98B533415F4D7AB00A7FCB7 /* JTPagedView.m */,
-				CEAC3848160EFAE6002E4E01 /* JTPopupGridView.h */,
-				CEAC3849160EFAE6002E4E01 /* JTPopupGridView.m */,
 				D98B533515F4D7AB00A7FCB7 /* JTRoundRectButton.h */,
 				D98B533615F4D7AB00A7FCB7 /* JTRoundRectButton.m */,
 				D98B531815F4D7AB00A7FCB7 /* JTStyledPageControl.h */,
@@ -261,8 +208,6 @@
 				D98B532515F4D7AB00A7FCB7 /* JTStyledButton.m */,
 				D98B532D15F4D7AB00A7FCB7 /* JTStyledTextView.h */,
 				D98B532E15F4D7AB00A7FCB7 /* JTStyledTextView.m */,
-				D98B532015F4D7AB00A7FCB7 /* JTHelpImageView.h */,
-				D98B532115F4D7AB00A7FCB7 /* JTHelpImageView.m */,
 				D98B532215F4D7AB00A7FCB7 /* JTPopupView.h */,
 				D98B532315F4D7AB00A7FCB7 /* JTPopupView.m */,
 				D98B532615F4D7AB00A7FCB7 /* JTStyledCell.h */,
@@ -332,7 +277,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				CE7D4E4B1662D0A700FFBE9B /* PBXTargetDependency */,
 				CE1E374B160F5A0B00098C98 /* PBXTargetDependency */,
 			);
 			name = JTStyledElements;
@@ -360,12 +304,6 @@
 			mainGroup = D98B52EB15F4D64D00A7FCB7;
 			productRefGroup = D98B52F715F4D64D00A7FCB7 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = CE7D4E421662D09C00FFBE9B /* Products */;
-					ProjectRef = CE7D4E411662D09C00FFBE9B /* GMGridView.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				D98B52F515F4D64D00A7FCB7 /* JTStyledElements */,
@@ -373,16 +311,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		CE7D4E491662D09C00FFBE9B /* libGMGridView.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libGMGridView.a;
-			remoteRef = CE7D4E481662D09C00FFBE9B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		CE1E3622160F38A400098C98 /* Resources */ = {
@@ -415,10 +343,8 @@
 				D98B533C15F4D7AB00A7FCB7 /* UIImage+AdvancedProcessing.m in Sources */,
 				D98B533D15F4D7AB00A7FCB7 /* UIImage+JTImages.m in Sources */,
 				D98B533E15F4D7AB00A7FCB7 /* JTStyledPageControl.m in Sources */,
-				D98B533F15F4D7AB00A7FCB7 /* JTAnimatedView.m in Sources */,
 				D98B534015F4D7AB00A7FCB7 /* JTBarButton.m in Sources */,
 				D98B534115F4D7AB00A7FCB7 /* JTBarView.m in Sources */,
-				D98B534215F4D7AB00A7FCB7 /* JTHelpImageView.m in Sources */,
 				D98B534315F4D7AB00A7FCB7 /* JTPopupView.m in Sources */,
 				D98B534415F4D7AB00A7FCB7 /* JTStyledButton.m in Sources */,
 				D98B534515F4D7AB00A7FCB7 /* JTStyledCell.m in Sources */,
@@ -429,7 +355,6 @@
 				D98B534A15F4D7AB00A7FCB7 /* JTStyledView.m in Sources */,
 				D98B534B15F4D7AB00A7FCB7 /* JTPagedView.m in Sources */,
 				D98B534C15F4D7AC00A7FCB7 /* JTRoundRectButton.m in Sources */,
-				CEAC384A160EFAE6002E4E01 /* JTPopupGridView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,11 +365,6 @@
 			isa = PBXTargetDependency;
 			target = CE1E3623160F38A400098C98 /* JTStyledElementsBundle */;
 			targetProxy = CE1E374A160F5A0B00098C98 /* PBXContainerItemProxy */;
-		};
-		CE7D4E4B1662D0A700FFBE9B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GMGridView;
-			targetProxy = CE7D4E4A1662D0A700FFBE9B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
